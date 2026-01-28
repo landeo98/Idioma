@@ -1,0 +1,448 @@
+{
+  "vocabulario_ingles": {
+    "categoria": "verbo_to_be_y_basicos",
+    "palabras": [
+      {
+        "ingles": "are",
+        "espanol": "son o están",
+        "categoria": "verbo_to_be"
+      },
+      {
+        "ingles": "He is my brother",
+        "espanol": "Él es mi hermano",
+        "categoria": "frases"
+      },
+      {
+        "ingles": "They are sisters",
+        "espanol": "Ellas son hermanas",
+        "categoria": "frases"
+      },
+      {
+        "ingles": "He is in the garden",
+        "espanol": "Él está en el jardín",
+        "categoria": "frases"
+      },
+      {
+        "ingles": "My son is in Matanzas",
+        "espanol": "Mi hijo está en Matanzas",
+        "categoria": "frases"
+      },
+      {
+        "ingles": "You are late",
+        "espanol": "Ustedes están retrasados",
+        "categoria": "frases"
+      },
+      {
+        "ingles": "This flower is yellow",
+        "espanol": "Esta flor es amarilla",
+        "categoria": "frases"
+      },
+      {
+        "ingles": "The sky is blue",
+        "espanol": "El cielo es azul",
+        "categoria": "frases"
+      },
+      {
+        "ingles": "They are here",
+        "espanol": "Ellos están aquí",
+        "categoria": "frases"
+      },
+      {
+        "ingles": "Today is Monday",
+        "espanol": "Hoy es lunes",
+        "categoria": "frases"
+      },
+      {
+        "ingles": "is",
+        "espanol": "es o está",
+        "categoria": "verbo_to_be"
+      },
+      {
+        "ingles": "walk",
+        "espanol": "paseo",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "walking",
+        "espanol": "paseando, caminando",
+        "categoria": "gerundios"
+      },
+      {
+        "ingles": "They are walking",
+        "espanol": "Ellos están caminando",
+        "categoria": "frases"
+      },
+      {
+        "ingles": "attack",
+        "espanol": "ataque",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "attacking",
+        "espanol": "atacando",
+        "categoria": "gerundios"
+      },
+      {
+        "ingles": "They are attacking",
+        "espanol": "Ellos están atacando",
+        "categoria": "frases"
+      },
+      {
+        "ingles": "paint",
+        "espanol": "pintura",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "painting",
+        "espanol": "pintando",
+        "categoria": "gerundios"
+      },
+      {
+        "ingles": "He is painting",
+        "espanol": "Él está pintando",
+        "categoria": "frases"
+      },
+      {
+        "ingles": "cry",
+        "espanol": "grito, llanto",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "crying",
+        "espanol": "gritando, llorando",
+        "categoria": "gerundios"
+      },
+      {
+        "ingles": "They are crying",
+        "espanol": "Ellos están llorando",
+        "categoria": "frases"
+      },
+      {
+        "ingles": "a",
+        "espanol": "un, uno, una",
+        "categoria": "artículos"
+      },
+      {
+        "ingles": "apple",
+        "espanol": "manzana",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "bad",
+        "espanol": "mal, malo, mala",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "boy",
+        "espanol": "niño",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "black",
+        "espanol": "negro, negra",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "bitter",
+        "espanol": "amargo, amarga",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "clean",
+        "espanol": "limpio, limpia",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "deep",
+        "espanol": "profundo, hondo",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "dirty",
+        "espanol": "sucio, sucia",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "drink",
+        "espanol": "bebida",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "dress",
+        "espanol": "traje, vestido",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "house",
+        "espanol": "casa",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "kind",
+        "espanol": "bondadoso, bondadosa",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "man",
+        "espanol": "hombre",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "new",
+        "espanol": "nuevo, nueva",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "news",
+        "espanol": "noticias",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "poor",
+        "espanol": "pobre, pobres",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "plate",
+        "espanol": "plato",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "river",
+        "espanol": "río",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "strong",
+        "espanol": "fuerte, robusto",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "small",
+        "espanol": "pequeño, chico",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "sweet",
+        "espanol": "dulce",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "table",
+        "espanol": "mesa",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "young",
+        "espanol": "joven",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "water",
+        "espanol": "agua",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "woman",
+        "espanol": "mujer",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "wise",
+        "espanol": "sabio, sabia",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "white",
+        "espanol": "blanco, blanca",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "a bad boy",
+        "espanol": "un niño malo",
+        "categoria": "frases_adjetivo"
+      },
+      {
+        "ingles": "a blue sky",
+        "espanol": "un cielo azul",
+        "categoria": "frases_adjetivo"
+      },
+      {
+        "ingles": "a young man",
+        "espanol": "un hombre joven",
+        "categoria": "frases_adjetivo"
+      },
+      {
+        "ingles": "clean water",
+        "espanol": "agua limpia",
+        "categoria": "frases_adjetivo"
+      },
+      {
+        "ingles": "a new house",
+        "espanol": "una casa nueva",
+        "categoria": "frases_adjetivo"
+      },
+      {
+        "ingles": "a poor woman",
+        "espanol": "una mujer pobre",
+        "categoria": "frases_adjetivo"
+      },
+      {
+        "ingles": "a kind woman",
+        "espanol": "una mujer bondadosa",
+        "categoria": "frases_adjetivo"
+      },
+      {
+        "ingles": "a deep river",
+        "espanol": "un río hondo",
+        "categoria": "frases_adjetivo"
+      },
+      {
+        "ingles": "a clean plate",
+        "espanol": "un plato limpio",
+        "categoria": "frases_adjetivo"
+      },
+      {
+        "ingles": "a strong man",
+        "espanol": "un hombre fuerte",
+        "categoria": "frases_adjetivo"
+      },
+      {
+        "ingles": "a dirty fork",
+        "espanol": "un tenedor sucio",
+        "categoria": "frases_adjetivo"
+      },
+      {
+        "ingles": "a small table",
+        "espanol": "una mesa chica",
+        "categoria": "frases_adjetivo"
+      },
+      {
+        "ingles": "a wise man",
+        "espanol": "un hombre sabio",
+        "categoria": "frases_adjetivo"
+      },
+      {
+        "ingles": "a black hat",
+        "espanol": "un sombrero negro",
+        "categoria": "frases_adjetivo"
+      },
+      {
+        "ingles": "a bitter apple",
+        "espanol": "una manzana amarga",
+        "categoria": "frases_adjetivo"
+      },
+      {
+        "ingles": "a sweet drink",
+        "espanol": "una bebida dulce",
+        "categoria": "frases_adjetivo"
+      },
+      {
+        "ingles": "a white dress",
+        "espanol": "un traje blanco",
+        "categoria": "frases_adjetivo"
+      },
+      {
+        "ingles": "work",
+        "espanol": "trabajo",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "this",
+        "espanol": "este, esta, esto",
+        "categoria": "demostrativos"
+      },
+      {
+        "ingles": "that",
+        "espanol": "ese, esa, eso",
+        "categoria": "demostrativos"
+      },
+      {
+        "ingles": "very",
+        "espanol": "muy",
+        "categoria": "adverbios"
+      },
+      {
+        "ingles": "good",
+        "espanol": "buen, bueno, buena",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "top",
+        "espanol": "cima, cumbre",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "of",
+        "espanol": "de",
+        "categoria": "preposiciones"
+      },
+      {
+        "ingles": "tree",
+        "espanol": "árbol",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "baby",
+        "espanol": "nene",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "mountain",
+        "espanol": "montaña",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "pencil",
+        "espanol": "lápiz",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "green",
+        "espanol": "verde",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "map",
+        "espanol": "mapa",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "and",
+        "espanol": "y",
+        "categoria": "conjunciones"
+      },
+      {
+        "ingles": "ill",
+        "espanol": "enfermo, enferma",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "road",
+        "espanol": "camino",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "play",
+        "espanol": "juego",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "playing",
+        "espanol": "jugando",
+        "categoria": "gerundios"
+      },
+      {
+        "ingles": "fork",
+        "espanol": "tenedor",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "hat",
+        "espanol": "sombrero",
+        "categoria": "sustantivos"
+      }
+   
+    ]
+}
+}

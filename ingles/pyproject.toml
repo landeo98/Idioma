@@ -1,0 +1,15 @@
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ingles_cli"
+version = "0.1.0"
+dependencies = ["pyttsx3"]
+description = "App para aprender inglés desde la terminal"
+authors = [{name = "Ron"}]
+
+
+[project.scripts]
+ingles = "ingles_cli.main:main"

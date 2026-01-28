@@ -1,0 +1,359 @@
+{
+  "vocabulario_ingles": {
+    "categoria": "basico",
+    "palabras": [
+      {"ingles": "hello","espanol": "hola","categoria": "saludos"},
+      {"ingles": "goodbye","espanol": "adiós","categoria": "saludos"},
+      {
+        "ingles": "yes",
+        "espanol": "sí",
+        "categoria": "respuestas"
+      },
+      {
+        "ingles": "no",
+        "espanol": "no",
+        "categoria": "respuestas"
+      },
+      {
+        "ingles": "please",
+        "espanol": "por favor",
+        "categoria": "cortesía"
+      },
+      {
+        "ingles": "thank you",
+        "espanol": "gracias",
+        "categoria": "cortesía"
+      },
+      {
+        "ingles": "sorry",
+        "espanol": "lo siento",
+        "categoria": "cortesía"
+      },
+      {
+        "ingles": "I",
+        "espanol": "yo",
+        "categoria": "pronombres"
+      },
+      {
+        "ingles": "you",
+        "espanol": "tú/usted",
+        "categoria": "pronombres"
+      },
+      {
+        "ingles": "we",
+        "espanol": "nosotros",
+        "categoria": "pronombres"
+      },
+      {
+        "ingles": "what",
+        "espanol": "qué",
+        "categoria": "preguntas"
+      },
+      {
+        "ingles": "where",
+        "espanol": "dónde",
+        "categoria": "preguntas"
+      },
+      {
+        "ingles": "how",
+        "espanol": "cómo",
+        "categoria": "preguntas"
+      },
+      {
+        "ingles": "time",
+        "espanol": "tiempo/hora",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "day",
+        "espanol": "día",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "water",
+        "espanol": "agua",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "food",
+        "espanol": "comida",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "house",
+        "espanol": "casa",
+        "categoria": "sustantivos"
+      },
+      {
+        "ingles": "good",
+        "espanol": "bueno",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "bad",
+        "espanol": "malo",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "big",
+        "espanol": "grande",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "small",
+        "espanol": "pequeño",
+        "categoria": "adjetivos"
+      },
+      {
+        "ingles": "go",
+        "espanol": "ir",
+        "categoria": "verbos"
+      },
+      {
+        "ingles": "come",
+        "espanol": "venir",
+        "categoria": "verbos"
+      },
+      {
+        "ingles": "eat",
+        "espanol": "comer",
+        "categoria": "verbos"
+      },
+      {
+        "ingles": "drink",
+        "espanol": "beber",
+        "categoria": "verbos"
+      },
+      {
+        "ingles": "one",
+        "espanol": "uno",
+        "categoria": "números"
+      },
+      {
+        "ingles": "two",
+        "espanol": "dos",
+        "categoria": "números"
+      },
+      {
+        "ingles": "three",
+        "espanol": "tres",
+        "categoria": "números"
+      },
+      {
+        "ingles": "now",
+        "espanol": "ahora",
+        "categoria": "adverbios"
+      },
+      {"ingles": "computer", "espanol": "ordenador/computadora", "categoria": "hardware"},
+      {"ingles": "software", "espanol": "software", "categoria": "conceptos"},
+      {"ingles": "hardware", "espanol": "hardware", "categoria": "conceptos"},
+      {"ingles": "program", "espanol": "programa", "categoria": "conceptos"},
+      {"ingles": "application", "espanol": "aplicación", "categoria": "conceptos"},
+      {"ingles": "algorithm", "espanol": "algoritmo", "categoria": "conceptos"},
+      {"ingles": "data", "espanol": "datos", "categoria": "conceptos"},
+      {"ingles": "database", "espanol": "base de datos", "categoria": "conceptos"},
+      {"ingles": "server", "espanol": "servidor", "categoria": "hardware"},
+      {"ingles": "network", "espanol": "red", "categoria": "conceptos"},
+      {"ingles": "internet", "espanol": "internet", "categoria": "conceptos"},
+      {"ingles": "cloud", "espanol": "nube", "categoria": "conceptos"},
+      {"ingles": "code", "espanol": "código", "categoria": "programación"},
+      {"ingles": "syntax", "espanol": "sintaxis", "categoria": "programación"},
+      {"ingles": "variable", "espanol": "variable", "categoria": "programación"},
+      {"ingles": "function", "espanol": "función", "categoria": "programación"},
+      {"ingles": "loop", "espanol": "bucle", "categoria": "programación"},
+      {"ingles": "array", "espanol": "matriz/arreglo", "categoria": "programación"},
+      {"ingles": "object", "espanol": "objeto", "categoria": "programación"},
+      {"ingles": "class", "espanol": "clase", "categoria": "programación"},
+      {"ingles": "JavaScript", "espanol": "JavaScript", "categoria": "lenguajes"},
+      {"ingles": "Python", "espanol": "Python", "categoria": "lenguajes"},
+      {"ingles": "Java", "espanol": "Java", "categoria": "lenguajes"},
+      {"ingles": "C++", "espanol": "C++", "categoria": "lenguajes"},
+      {"ingles": "HTML", "espanol": "HTML", "categoria": "lenguajes"},
+      {"ingles": "CSS", "espanol": "CSS", "categoria": "lenguajes"},
+      {"ingles": "framework", "espanol": "framework", "categoria": "programación"},
+      {"ingles": "library", "espanol": "biblioteca", "categoria": "programación"},
+      {"ingles": "API", "espanol": "API", "categoria": "programación"},
+      {"ingles": "debug", "espanol": "depurar", "categoria": "programación"},
+      {"ingles": "compile", "espanol": "compilar", "categoria": "programación"},
+      {"ingles": "execute", "espanol": "ejecutar", "categoria": "programación"},
+      {"ingles": "bug", "espanol": "error/fallo", "categoria": "programación"},
+      {"ingles": "version control", "espanol": "control de versiones", "categoria": "herramientas"},
+      {"ingles": "Git", "espanol": "Git", "categoria": "herramientas"},
+      {"ingles": "repository", "espanol": "repositorio", "categoria": "herramientas"},
+      {"ingles": "commit", "espanol": "confirmar", "categoria": "herramientas"},
+      {"ingles": "branch", "espanol": "rama", "categoria": "herramientas"},
+      {"ingles": "merge", "espanol": "fusionar", "categoria": "herramientas"},
+      {"ingles": "frontend", "espanol": "frontend", "categoria": "desarrollo"},
+      {"ingles": "backend", "espanol": "backend", "categoria": "desarrollo"},
+      {"ingles": "full stack", "espanol": "full stack", "categoria": "desarrollo"},
+      {"ingles": "responsive", "espanol": "responsivo", "categoria": "desarrollo"},
+      {"ingles": "mobile app", "espanol": "aplicación móvil", "categoria": "desarrollo"},
+      {"ingles": "web development", "espanol": "desarrollo web", "categoria": "desarrollo"},
+      {"ingles": "agile", "espanol": "ágil", "categoria": "metodologías"},
+      {"ingles": "scrum", "espanol": "scrum", "categoria": "metodologías"},
+      {"ingles": "sprint", "espanol": "sprint", "categoria": "metodologías"},
+      {"ingles": "UI", "espanol": "interfaz de usuario", "categoria": "diseño"},
+      {"ingles": "UX", "espanol": "experiencia de usuario", "categoria": "diseño"},
+      {"ingles": "wireframe", "espanol": "wireframe", "categoria": "diseño"}
+    ],
+    
+    "dia_a_dia": [
+      {"ingles": "morning", "espanol": "mañana", "categoria": "tiempo"},
+      {"ingles": "afternoon", "espanol": "tarde", "categoria": "tiempo"},
+      {"ingles": "evening", "espanol": "noche (tarde-noche)", "categoria": "tiempo"},
+      {"ingles": "night", "espanol": "noche", "categoria": "tiempo"},
+      {"ingles": "breakfast", "espanol": "desayuno", "categoria": "comida"},
+      {"ingles": "lunch", "espanol": "almuerzo", "categoria": "comida"},
+      {"ingles": "dinner", "espanol": "cena", "categoria": "comida"},
+      {"ingles": "snack", "espanol": "tentempié", "categoria": "comida"},
+      {"ingles": "to wake up", "espanol": "despertarse", "categoria": "rutinas"},
+      {"ingles": "to get up", "espanol": "levantarse", "categoria": "rutinas"},
+      {"ingles": "to shower", "espanol": "ducharse", "categoria": "rutinas"},
+      {"ingles": "to dress", "espanol": "vestirse", "categoria": "rutinas"},
+      {"ingles": "to work", "espanol": "trabajar", "categoria": "rutinas"},
+      {"ingles": "to study", "espanol": "estudiar", "categoria": "rutinas"},
+      {"ingles": "to exercise", "espanol": "hacer ejercicio", "categoria": "rutinas"},
+      {"ingles": "to relax", "espanol": "relajarse", "categoria": "rutinas"},
+      {"ingles": "to sleep", "espanol": "dormir", "categoria": "rutinas"},
+      {"ingles": "weather", "espanol": "tiempo (clima)", "categoria": "tiempo"},
+      {"ingles": "sunny", "espanol": "soleado", "categoria": "tiempo"},
+      {"ingles": "rainy", "espanol": "lluvioso", "categoria": "tiempo"},
+      {"ingles": "cloudy", "espanol": "nublado", "categoria": "tiempo"},
+      {"ingles": "windy", "espanol": "ventoso", "categoria": "tiempo"},
+      {"ingles": "hot", "espanol": "caluroso", "categoria": "tiempo"},
+      {"ingles": "cold", "espanol": "frío", "categoria": "tiempo"},
+      {"ingles": "supermarket", "espanol": "supermercado", "categoria": "lugares"},
+      {"ingles": "bank", "espanol": "banco", "categoria": "lugares"},
+      {"ingles": "pharmacy", "espanol": "farmacia", "categoria": "lugares"},
+      {"ingles": "park", "espanol": "parque", "categoria": "lugares"},
+      {"ingles": "gym", "espanol": "gimnasio", "categoria": "lugares"},
+      {"ingles": "restaurant", "espanol": "restaurante", "categoria": "lugares"},
+      {"ingles": "cinema", "espanol": "cine", "categoria": "lugares"},
+      {"ingles": "bus", "espanol": "autobús", "categoria": "transporte"},
+      {"ingles": "subway", "espanol": "metro", "categoria": "transporte"},
+      {"ingles": "train", "espanol": "tren", "categoria": "transporte"},
+      {"ingles": "car", "espanol": "coche", "categoria": "transporte"},
+      {"ingles": "bicycle", "espanol": "bicicleta", "categoria": "transporte"},
+      {"ingles": "to drive", "espanol": "conducir", "categoria": "transporte"},
+      {"ingles": "to walk", "espanol": "caminar", "categoria": "transporte"},
+      {"ingles": "money", "espanol": "dinero", "categoria": "finanzas"},
+      {"ingles": "to pay", "espanol": "pagar", "categoria": "finanzas"},
+      {"ingles": "to save", "espanol": "ahorrar", "categoria": "finanzas"},
+      {"ingles": "to spend", "espanol": "gastar", "categoria": "finanzas"},
+      {"ingles": "price", "espanol": "precio", "categoria": "finanzas"},
+      {"ingles": "shopping", "espanol": "compras", "categoria": "finanzas"}
+    ],
+    
+    "familia": [
+      {"ingles": "family", "espanol": "familia", "categoria": "general"},
+      {"ingles": "mother", "espanol": "madre", "categoria": "parentesco"},
+      {"ingles": "father", "espanol": "padre", "categoria": "parentesco"},
+      {"ingles": "parents", "espanol": "padres", "categoria": "parentesco"},
+      {"ingles": "son", "espanol": "hijo", "categoria": "parentesco"},
+      {"ingles": "daughter", "espanol": "hija", "categoria": "parentesco"},
+      {"ingles": "children", "espanol": "hijos", "categoria": "parentesco"},
+      {"ingles": "brother", "espanol": "hermano", "categoria": "parentesco"},
+      {"ingles": "sister", "espanol": "hermana", "categoria": "parentesco"},
+      {"ingles": "siblings", "espanol": "hermanos", "categoria": "parentesco"},
+      {"ingles": "grandfather", "espanol": "abuelo", "categoria": "parentesco"},
+      {"ingles": "grandmother", "espanol": "abuela", "categoria": "parentesco"},
+      {"ingles": "grandparents", "espanol": "abuelos", "categoria": "parentesco"},
+      {"ingles": "grandson", "espanol": "nieto", "categoria": "parentesco"},
+      {"ingles": "granddaughter", "espanol": "nieta", "categoria": "parentesco"},
+      {"ingles": "uncle", "espanol": "tío", "categoria": "parentesco"},
+      {"ingles": "aunt", "espanol": "tía", "categoria": "parentesco"},
+      {"ingles": "cousin", "espanol": "primo/prima", "categoria": "parentesco"},
+      {"ingles": "nephew", "espanol": "sobrino", "categoria": "parentesco"},
+      {"ingles": "niece", "espanol": "sobrina", "categoria": "parentesco"},
+      {"ingles": "husband", "espanol": "esposo/marido", "categoria": "parentesco"},
+      {"ingles": "wife", "espanol": "esposa/mujer", "categoria": "parentesco"},
+      {"ingles": "spouse", "espanol": "cónyuge", "categoria": "parentesco"},
+      {"ingles": "father-in-law", "espanol": "suegro", "categoria": "parentesco"},
+      {"ingles": "mother-in-law", "espanol": "suegra", "categoria": "parentesco"},
+      {"ingles": "baby", "espanol": "bebé", "categoria": "parentesco"},
+      {"ingles": "toddler", "espanol": "niño pequeño", "categoria": "parentesco"},
+      {"ingles": "teenager", "espanol": "adolescente", "categoria": "parentesco"},
+      {"ingles": "adult", "espanol": "adulto", "categoria": "parentesco"},
+      {"ingles": "elderly", "espanol": "anciano", "categoria": "parentesco"},
+      {"ingles": "single", "espanol": "soltero", "categoria": "estado civil"},
+      {"ingles": "married", "espanol": "casado", "categoria": "estado civil"},
+      {"ingles": "divorced", "espanol": "divorciado", "categoria": "estado civil"},
+      {"ingles": "widowed", "espanol": "viudo", "categoria": "estado civil"},
+      {"ingles": "engaged", "espanol": "comprometido", "categoria": "estado civil"},
+      {"ingles": "relationship", "espanol": "relación", "categoria": "estado civil"},
+      {"ingles": "to marry", "espanol": "casarse", "categoria": "estado civil"},
+      {"ingles": "to divorce", "espanol": "divorciarse", "categoria": "estado civil"},
+      {"ingles": "birthday", "espanol": "cumpleaños", "categoria": "eventos"},
+      {"ingles": "wedding", "espanol": "boda", "categoria": "eventos"},
+      {"ingles": "anniversary", "espanol": "aniversario", "categoria": "eventos"},
+      {"ingles": "family reunion", "espanol": "reunión familiar", "categoria": "eventos"}
+    ],
+    
+    "oficina_trabajo": [
+      {"ingles": "office", "espanol": "oficina", "categoria": "lugar"},
+      {"ingles": "desk", "espanol": "escritorio", "categoria": "mobiliario"},
+      {"ingles": "chair", "espanol": "silla", "categoria": "mobiliario"},
+      {"ingles": "computer", "espanol": "computadora", "categoria": "equipos"},
+      {"ingles": "keyboard", "espanol": "teclado", "categoria": "equipos"},
+      {"ingles": "mouse", "espanol": "ratón", "categoria": "equipos"},
+      {"ingles": "monitor", "espanol": "monitor", "categoria": "equipos"},
+      {"ingles": "printer", "espanol": "impresora", "categoria": "equipos"},
+      {"ingles": "scanner", "espanol": "escáner", "categoria": "equipos"},
+      {"ingles": "telephone", "espanol": "teléfono", "categoria": "equipos"},
+      {"ingles": "meeting", "espanol": "reunión", "categoria": "actividades"},
+      {"ingles": "conference", "espanol": "conferencia", "categoria": "actividades"},
+      {"ingles": "presentation", "espanol": "presentación", "categoria": "actividades"},
+      {"ingles": "report", "espanol": "informe", "categoria": "documentos"},
+      {"ingles": "email", "espanol": "correo electrónico", "categoria": "comunicación"},
+      {"ingles": "schedule", "espanol": "horario", "categoria": "organización"},
+      {"ingles": "deadline", "espanol": "fecha límite", "categoria": "organización"},
+      {"ingles": "project", "espanol": "proyecto", "categoria": "organización"},
+      {"ingles": "task", "espanol": "tarea", "categoria": "organización"},
+      {"ingles": "colleague", "espanol": "colega", "categoria": "personas"},
+      {"ingles": "boss", "espanol": "jefe", "categoria": "personas"},
+      {"ingles": "manager", "espanol": "gerente", "categoria": "personas"},
+      {"ingles": "employee", "espanol": "empleado", "categoria": "personas"},
+      {"ingles": "intern", "espanol": "pasante", "categoria": "personas"},
+      {"ingles": "client", "espanol": "cliente", "categoria": "personas"},
+      {"ingles": "customer", "espanol": "cliente", "categoria": "personas"},
+      {"ingles": "salary", "espanol": "salario", "categoria": "finanzas"},
+      {"ingles": "paycheck", "espanol": "nómina", "categoria": "finanzas"},
+      {"ingles": "benefits", "espanol": "beneficios", "categoria": "finanzas"},
+      {"ingles": "vacation", "espanol": "vacaciones", "categoria": "tiempo"},
+      {"ingles": "sick leave", "espanol": "baja por enfermedad", "categoria": "tiempo"},
+      {"ingles": "full-time", "espanol": "tiempo completo", "categoria": "contrato"},
+      {"ingles": "part-time", "espanol": "medio tiempo", "categoria": "contrato"},
+      {"ingles": "remote work", "espanol": "trabajo remoto", "categoria": "modalidad"},
+      {"ingles": "hybrid work", "espanol": "trabajo híbrido", "categoria": "modalidad"},
+      {"ingles": "to hire", "espanol": "contratar", "categoria": "RRHH"},
+      {"ingles": "to fire", "espanol": "despedir", "categoria": "RRHH"},
+      {"ingles": "to resign", "espanol": "renunciar", "categoria": "RRHH"},
+      {"ingles": "promotion", "espanol": "ascenso", "categoria": "carrera"},
+      {"ingles": "raise", "espanol": "aumento de sueldo", "categoria": "carrera"},
+      {"ingles": "career", "espanol": "carrera profesional", "categoria": "carrera"}
+    ],
+    
+    "saludos_basico": [
+      {"ingles": "hello", "espanol": "hola", "categoria": "saludos"},
+      {"ingles": "goodbye", "espanol": "adiós", "categoria": "saludos"},
+      {"ingles": "good morning", "espanol": "buenos días", "categoria": "saludos"},
+      {"ingles": "good afternoon", "espanol": "buenas tardes", "categoria": "saludos"},
+      {"ingles": "good evening", "espanol": "buenas noches (saludo)", "categoria": "saludos"},
+      {"ingles": "good night", "espanol": "buenas noches (despedida)", "categoria": "saludos"},
+      {"ingles": "hi", "espanol": "hola (informal)", "categoria": "saludos"},
+      {"ingles": "bye", "espanol": "adiós (informal)", "categoria": "saludos"},
+      {"ingles": "see you later", "espanol": "hasta luego", "categoria": "saludos"},
+      {"ingles": "see you soon", "espanol": "hasta pronto", "categoria": "saludos"},
+      {"ingles": "how are you?", "espanol": "¿cómo estás?", "categoria": "preguntas"},
+      {"ingles": "I'm fine", "espanol": "estoy bien", "categoria": "respuestas"},
+      {"ingles": "thank you", "espanol": "gracias", "categoria": "cortesía"},
+      {"ingles": "you're welcome", "espanol": "de nada", "categoria": "cortesía"},
+      {"ingles": "please", "espanol": "por favor", "categoria": "cortesía"},
+      {"ingles": "excuse me", "espanol": "perdón/disculpe", "categoria": "cortesía"},
+      {"ingles": "sorry", "espanol": "lo siento", "categoria": "cortesía"},
+      {"ingles": "yes", "espanol": "sí", "categoria": "afirmación"},
+      {"ingles": "no", "espanol": "no", "categoria": "negación"},
+      {"ingles": "maybe", "espanol": "quizás", "categoria": "duda"}
+    ]
+  }
+}

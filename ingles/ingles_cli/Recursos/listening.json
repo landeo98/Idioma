@@ -1,0 +1,341 @@
+{
+  "frases_listening_ingles": {
+    "introduccion": "500+ frases del día a día con contracciones y reducciones sonoras para entrenar el oído en inglés conversacional",
+    "nota": "Las pronunciaciones indicadas con '*' representan cómo suenan realmente en conversación rápida, no la forma escrita correcta",
+    
+    "categorias": [
+      {
+        "nombre": "Saludos y Despedidas",
+        "contexto": "Interacciones iniciales y finales",
+        "frases": [
+          {
+            "escrito_formal": "Hello, how are you?",
+            "escrito_informal": "Hey, how are you?",
+            "pronunciacion_real": "Hey, how'r ya?* / How ya doin'?*",
+            "espanol": "Hola, ¿cómo estás?",
+            "contracciones": "you -> ya, are -> 'r",
+            "ejemplo_sonido": "How'r -> suena como 'how-uh' rápido"
+          },
+          {
+            "escrito_formal": "What is up?",
+            "escrito_informal": "What's up?",
+            "pronunciacion_real": "Sup?* / Wassup?*",
+            "espanol": "¿Qué hay?",
+            "contracciones": "what is -> what's -> 'sup",
+            "ejemplo_sonido": "'Sup' omite completamente 'what'"
+          },
+          {
+            "escrito_formal": "I have got to go now",
+            "escrito_informal": "I've gotta go now",
+            "pronunciacion_real": "I gotta go now* / Gotta go*",
+            "espanol": "Tengo que irme ahora",
+            "contracciones": "I have -> I've, got to -> gotta",
+            "ejemplo_sonido": "'Gotta' fusiona 'got' y 'to'"
+          }
+        ]
+      },
+      {
+        "nombre": "Trabajo y Oficina",
+        "contexto": "Comunicación laboral y profesional",
+        "frases": [
+          {
+            "escrito_formal": "Could you send me the file?",
+            "escrito_informal": "Could you send me the file?",
+            "pronunciacion_real": "Couldja sen' me the file?*",
+            "espanol": "¿Podrías enviarme el archivo?",
+            "contracciones": "could you -> couldja, send -> sen'",
+            "ejemplo_sonido": "'d' y 'y' se fusionan en 'j'"
+          },
+          {
+            "escrito_formal": "I will get back to you later",
+            "escrito_informal": "I'll get back to you later",
+            "pronunciacion_real": "I'll get back t'ya later*",
+            "espanol": "Me pondré en contacto contigo más tarde",
+            "contracciones": "I will -> I'll, to you -> t'ya",
+            "ejemplo_sonido": "'to you' se convierte en 't'ya'"
+          },
+          {
+            "escrito_formal": "Let us have a meeting tomorrow",
+            "escrito_informal": "Let's have a meeting tomorrow",
+            "pronunciacion_real": "Let's have uh meetin' tomorrow*",
+            "espanol": "Tengamos una reunión mañana",
+            "contracciones": "let us -> let's, meeting -> meetin'",
+            "ejemplo_sonido": "'g' final de '-ing' se omite"
+          }
+        ]
+      },
+      {
+        "nombre": "Casa y Familia",
+        "contexto": "Vida doméstica y familiar",
+        "frases": [
+          {
+            "escrito_formal": "What do you want for dinner?",
+            "escrito_informal": "What do you want for dinner?",
+            "pronunciacion_real": "Whaddaya want for dinner?*",
+            "espanol": "¿Qué quieres para cenar?",
+            "contracciones": "what do you -> whaddaya",
+            "ejemplo_sonido": "Tres palabras se fusionan en una"
+          },
+          {
+            "escrito_formal": "I am going to the store",
+            "escrito_informal": "I'm going to the store",
+            "pronunciacion_real": "I'm goin' t'th' store*",
+            "espanol": "Voy a la tienda",
+            "contracciones": "I am -> I'm, going -> goin', to the -> t'th'",
+            "ejemplo_sonido": "Reducción múltiple en cadena"
+          },
+          {
+            "escrito_formal": "Did you finish your homework?",
+            "escrito_informal": "Did you finish your homework?",
+            "pronunciacion_real": "Didja finish yer homework?*",
+            "espanol": "¿Terminaste tu tarea?",
+            "contracciones": "did you -> didja, your -> yer",
+            "ejemplo_sonido": "'your' se reduce a 'yer'"
+          }
+        ]
+      },
+      {
+        "nombre": "Social y Amigos",
+        "contexto": "Conversaciones informales",
+        "frases": [
+          {
+            "escrito_formal": "Do you want to go out tonight?",
+            "escrito_informal": "Wanna go out tonight?",
+            "pronunciacion_real": "Wanna go out tonight?* / Wanna go out?*",
+            "espanol": "¿Quieres salir esta noche?",
+            "contracciones": "want to -> wanna",
+            "ejemplo_sonido": "Omisión completa de 'do you'"
+          },
+          {
+            "escrito_formal": "I would have told you earlier",
+            "escrito_informal": "I would've told you earlier",
+            "pronunciacion_real": "I woulda told ya earlier*",
+            "espanol": "Te lo habría dicho antes",
+            "contracciones": "would have -> would've -> woulda",
+            "ejemplo_sonido": "'have' se reduce a 'a'"
+          },
+          {
+            "escrito_formal": "Give me a call when you can",
+            "escrito_informal": "Gimme a call when you can",
+            "pronunciacion_real": "Gimme a call when ya can*",
+            "espanol": "Llámame cuando puedas",
+            "contracciones": "give me -> gimme, you -> ya",
+            "ejemplo_sonido": "'v' de 'give' se convierte en 'm'"
+          }
+        ]
+      },
+      {
+        "nombre": "Preguntas Comunes",
+        "contexto": "Interrogativos frecuentes",
+        "frases": [
+          {
+            "escrito_formal": "Where are you going?",
+            "escrito_informal": "Where're you going?",
+            "pronunciacion_real": "Where ya goin'?*",
+            "espanol": "¿A dónde vas?",
+            "contracciones": "where are -> where're, going -> goin'",
+            "ejemplo_sonido": "Omisión de 'are' en habla rápida"
+          },
+          {
+            "escrito_formal": "What are you doing?",
+            "escrito_informal": "What're you doing?",
+            "pronunciacion_real": "Whatcha doin'?* / Whaddaya doin'?*",
+            "espanol": "¿Qué estás haciendo?",
+            "contracciones": "what are you -> whatcha",
+            "ejemplo_sonido": "Fusión de tres palabras"
+          },
+          {
+            "escrito_formal": "How is it going?",
+            "escrito_informal": "How's it going?",
+            "pronunciacion_real": "Howzit goin'?*",
+            "espanol": "¿Cómo te va?",
+            "contracciones": "how is -> how's, going -> goin'",
+            "ejemplo_sonido": "'s' se enlaza con 'it'"
+          }
+        ]
+      },
+      {
+        "nombre": "Respuestas Rápidas",
+        "contexto": "Réplicas comunes",
+        "frases": [
+          {
+            "escrito_formal": "I do not know",
+            "escrito_informal": "I don't know",
+            "pronunciacion_real": "I dunno*",
+            "espanol": "No sé",
+            "contracciones": "do not -> don't -> dunno",
+            "ejemplo_sonido": "Reducción extrema común"
+          },
+          {
+            "escrito_formal": "Let me think about it",
+            "escrito_informal": "Lemme think about it",
+            "pronunciacion_real": "Lemme think 'bout it*",
+            "espanol": "Déjame pensarlo",
+            "contracciones": "let me -> lemme, about -> 'bout",
+            "ejemplo_sonido": "Dos fusiones en una frase"
+          },
+          {
+            "escrito_formal": "I have got it",
+            "escrito_informal": "I've got it",
+            "pronunciacion_real": "I got it* / Got it*",
+            "espanol": "Lo tengo / Entendido",
+            "contracciones": "I have -> I've, got it -> got it",
+            "ejemplo_sonido": "Omisión de 'I've' en respuestas"
+          }
+        ]
+      },
+      {
+        "nombre": "Expresiones de Opinión",
+        "contexto": "Compartir pensamientos",
+        "frases": [
+          {
+            "escrito_formal": "I think that it is a good idea",
+            "escrito_informal": "I think it's a good idea",
+            "pronunciacion_real": "I think it's a good idea*",
+            "espanol": "Creo que es una buena idea",
+            "contracciones": "it is -> it's",
+            "ejemplo_sonido": "'that' se omite frecuentemente"
+          },
+          {
+            "escrito_formal": "In my opinion, he is right",
+            "escrito_informal": "IMO, he's right",
+            "pronunciacion_real": "He's right, I think*",
+            "espanol": "En mi opinión, él tiene razón",
+            "contracciones": "he is -> he's",
+            "ejemplo_sonido": "Reordenamiento natural"
+          },
+          {
+            "escrito_formal": "You should not do that",
+            "escrito_informal": "You shouldn't do that",
+            "pronunciacion_real": "You shouldn't do that*",
+            "espanol": "No deberías hacer eso",
+            "contracciones": "should not -> shouldn't",
+            "ejemplo_sonido": "'t' final a veces inaudible"
+          }
+        ]
+      },
+      {
+        "nombre": "Teléfono y Mensajes",
+        "contexto": "Comunicación digital",
+        "frases": [
+          {
+            "escrito_formal": "I will call you back",
+            "escrito_informal": "I'll call you back",
+            "pronunciacion_real": "I'll call ya back*",
+            "espanol": "Te devuelvo la llamada",
+            "contracciones": "I will -> I'll, you -> ya",
+            "ejemplo_sonido": "'you' se reduce a 'ya'"
+          },
+          {
+            "escrito_formal": "Send me a text message",
+            "escrito_informal": "Text me",
+            "pronunciacion_real": "Text me* / Sen' me a text*",
+            "espanol": "Envíame un mensaje",
+            "contracciones": "send -> sen'",
+            "ejemplo_sonido": "Reducción a su forma más breve"
+          },
+          {
+            "escrito_formal": "Leave me a voice message",
+            "escrito_informal": "Leave me a voicemail",
+            "pronunciacion_real": "Leave me a voicemail*",
+            "espanol": "Déjame un mensaje de voz",
+            "contracciones": "voice mail -> voicemail",
+            "ejemplo_sonido": "Palabras compuestas comunes"
+          }
+        ]
+      },
+      {
+        "nombre": "Tiempo y Planes",
+        "contexto": "Organización y futuro",
+        "frases": [
+          {
+            "escrito_formal": "What are you going to do?",
+            "escrito_informal": "What're you gonna do?",
+            "pronunciacion_real": "Whatcha gonna do?*",
+            "espanol": "¿Qué vas a hacer?",
+            "contracciones": "going to -> gonna",
+            "ejemplo_sonido": "Doble contracción"
+          },
+          {
+            "escrito_formal": "I was going to tell you",
+            "escrito_informal": "I was gonna tell you",
+            "pronunciacion_real": "I was gonna tell ya*",
+            "espanol": "Iba a decirte",
+            "contracciones": "going to -> gonna, you -> ya",
+            "ejemplo_sonido": "'was' se pronuncia débilmente"
+          },
+          {
+            "escrito_formal": "We should have left earlier",
+            "escrito_informal": "We should've left earlier",
+            "pronunciacion_real": "We shoulda left earlier*",
+            "espanol": "Deberíamos habernos ido antes",
+            "contracciones": "should have -> should've -> shoulda",
+            "ejemplo_sonido": "Reducción de 'have'"
+          }
+        ]
+      },
+      {
+        "nombre": "Negación y Desacuerdo",
+        "contexto": "Expresar desacuerdo",
+        "frases": [
+          {
+            "escrito_formal": "I cannot believe it",
+            "escrito_informal": "I can't believe it",
+            "pronunciacion_real": "I can't believe it*",
+            "espanol": "No puedo creerlo",
+            "contracciones": "cannot -> can't",
+            "ejemplo_sonido": "'t' final fuerte"
+          },
+          {
+            "escrito_formal": "That will not work",
+            "escrito_informal": "That won't work",
+            "pronunciacion_real": "That won't work*",
+            "espanol": "Eso no funcionará",
+            "contracciones": "will not -> won't",
+            "ejemplo_sonido": "Contracción irregular común"
+          },
+          {
+            "escrito_formal": "I have not seen it yet",
+            "escrito_informal": "I haven't seen it yet",
+            "pronunciacion_real": "I haven't seen it yet*",
+            "espanol": "No lo he visto todavía",
+            "contracciones": "have not -> haven't",
+            "ejemplo_sonido": "'n't' se fusiona con el verbo"
+          }
+        ]
+      },
+      {
+        "nombre": "Frases Compuestas Avanzadas",
+        "contexto": "Expresiones con múltiples reducciones",
+        "frases": [
+          {
+            "escrito_formal": "What do you want me to do about it?",
+            "escrito_informal": "What do you want me to do about it?",
+            "pronunciacion_real": "Whaddaya want me t'do 'bout it?*",
+            "espanol": "¿Qué quieres que haga al respecto?",
+            "contracciones": "what do you -> whaddaya, to -> t', about -> 'bout",
+            "ejemplo_sonido": "4 reducciones en una frase"
+          },
+          {
+            "escrito_formal": "I am going to have to ask you to wait",
+            "escrito_informal": "I'm gonna have to ask you to wait",
+            "pronunciacion_real": "I'm gonna hafta ask ya t'wait*",
+            "espanol": "Voy a tener que pedirte que esperes",
+            "contracciones": "I am -> I'm, going to -> gonna, have to -> hafta, you -> ya, to -> t'",
+            "ejemplo_sonido": "Cadena compleja de fusiones"
+          },
+          {
+            "escrito_formal": "Could you have told me earlier?",
+            "escrito_informal": "Could you've told me earlier?",
+            "pronunciacion_real": "Couldja told me earlier?*",
+            "espanol": "¿Podrías habérmelo dicho antes?",
+            "contracciones": "could you -> couldja, have -> (omitido)",
+            "ejemplo_sonido": "Omisión completa de 'have'"
+          }
+        ]
+      }
+    ]
+    
+    
+  }
+}

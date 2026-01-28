@@ -1,0 +1,43 @@
+{
+    "patrones_comunes": {
+
+      "nota": "Estos patrones se repiten en cientos de frases adicionales",
+      "patrones": [
+        {
+          "patron": "Pronombre + will",
+          "ejemplos": ["I'll", "you'll", "he'll", "she'll", "it'll", "we'll", "they'll"],
+          "uso": "Futuro inmediato, promesas, decisiones"
+        },
+        {
+          "patron": "Pronombre + would/had",
+          "ejemplos": ["I'd", "you'd", "he'd", "she'd", "it'd", "we'd", "they'd"],
+          "uso": "Condicional, pasado perfecto"
+        },
+        {
+          "patron": "Pronombre + have",
+          "ejemplos": ["I've", "you've", "we've", "they've"],
+          "uso": "Presente perfecto, experiencias"
+        },
+        {
+          "patron": "Pronombre + am/are/is",
+          "ejemplos": ["I'm", "you're", "he's", "she's", "it's", "we're", "they're"],
+          "uso": "Estados actuales, descripciones"
+        },
+        {
+          "patron": "Verbo + not",
+          "ejemplos": ["isn't", "aren't", "wasn't", "weren't", "don't", "doesn't", "didn't", "haven't", "hasn't", "hadn't", "won't", "wouldn't", "can't", "couldn't", "shouldn't", "mightn't", "mustn't"],
+          "uso": "Todas las negaciones"
+        },
+        {
+          "patron": "Question words + is",
+          "ejemplos": ["what's", "where's", "when's", "why's", "how's", "who's"],
+          "uso": "Preguntas informales"
+        },
+        {
+          "patron": "Reducciones informales",
+          "ejemplos": ["wanna (want to)", "gonna (going to)", "gotta (got to)", "hafta (have to)", "oughta (ought to)", "kinda (kind of)", "sorta (sort of)", "lemme (let me)", "gimme (give me)", "dunno (don't know)"],
+          "uso": "Habla extremadamente informal"
+        }
+      ]
+    }
+}

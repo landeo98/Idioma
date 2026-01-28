@@ -1,0 +1,11 @@
+pyproject.toml
+ingles_cli/__init__.py
+ingles_cli/main.py
+ingles_cli.egg-info/PKG-INFO
+ingles_cli.egg-info/SOURCES.txt
+ingles_cli.egg-info/dependency_links.txt
+ingles_cli.egg-info/entry_points.txt
+ingles_cli.egg-info/requires.txt
+ingles_cli.egg-info/top_level.txt
+ingles_cli/logic/__init__.py
+ingles_cli/logic/funciones.py
