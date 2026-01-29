@@ -1,7 +1,7 @@
 {
   "vocabulario_ingles": {
     "categoria": "basico",
-    "palabras": [
+    "palajbras": [
       {"ingles": "hello","espanol": "hola","categoria": "saludos"},
       {"ingles": "goodbye","espanol": "adiós","categoria": "saludos"},
       {
@@ -354,6 +354,198 @@
       {"ingles": "yes", "espanol": "sí", "categoria": "afirmación"},
       {"ingles": "no", "espanol": "no", "categoria": "negación"},
       {"ingles": "maybe", "espanol": "quizás", "categoria": "duda"}
+    ],
+
+    "palabrñas": [
+      {"ingles": "data","espanol": "datos","categoria": "datos"},
+      {"ingles": "dataset","espanol": "conjunto de datos","categoria": "datos"},
+      {"ingles": "database","espanol": "base de datos","categoria": "datos"},
+      {"ingles": "table","espanol": "tabla","categoria": "datos"},
+      {"ingles": "row","espanol": "fila","categoria": "datos"},
+      {"ingles": "column","espanol": "columna","categoria": "datos"},
+      {"ingles": "schema","espanol": "esquema","categoria": "datos"},
+      {"ingles": "primary key","espanol": "clave primaria","categoria": "datos"},
+      {"ingles": "foreign key","espanol": "clave foránea","categoria": "datos"},
+
+      {"ingles": "ETL","espanol": "extracción, transformación y carga","categoria": "data engineering"},
+      {"ingles": "ELT","espanol": "extracción, carga y transformación","categoria": "data engineering"},
+      {"ingles": "data pipeline","espanol": "tubería de datos","categoria": "data engineering"},
+      {"ingles": "batch processing","espanol": "procesamiento por lotes","categoria": "data engineering"},
+      {"ingles": "stream processing","espanol": "procesamiento en tiempo real","categoria": "data engineering"},
+      {"ingles": "orchestration","espanol": "orquestación","categoria": "data engineering"},
+      {"ingles": "scheduler","espanol": "planificador","categoria": "data engineering"},
+      {"ingles": "workflow","espanol": "flujo de trabajo","categoria": "data engineering"},
+
+      {"ingles": "data warehouse","espanol": "almacén de datos","categoria": "arquitectura"},
+      {"ingles": "data lake","espanol": "lago de datos","categoria": "arquitectura"},
+      {"ingles": "data lakehouse","espanol": "lago-almacén de datos","categoria": "arquitectura"},
+      {"ingles": "cloud storage","espanol": "almacenamiento en la nube","categoria": "arquitectura"},
+      {"ingles": "on-premise","espanol": "local","categoria": "arquitectura"},
+      {"ingles": "scalability","espanol": "escalabilidad","categoria": "arquitectura"},
+
+      {"ingles": "SQL","espanol": "lenguaje de consulta estructurado","categoria": "lenguajes"},
+      {"ingles": "Python","espanol": "Python","categoria": "lenguajes"},
+      {"ingles": "R","espanol": "R","categoria": "lenguajes"},
+      {"ingles": "query","espanol": "consulta","categoria": "lenguajes"},
+      {"ingles": "join","espanol": "unión","categoria": "lenguajes"},
+      {"ingles": "filter","espanol": "filtro","categoria": "lenguajes"},
+      {"ingles": "aggregation","espanol": "agregación","categoria": "lenguajes"},
+
+      {"ingles": "data analysis","espanol": "análisis de datos","categoria": "analisis"},
+      {"ingles": "exploratory analysis","espanol": "análisis exploratorio","categoria": "analisis"},
+      {"ingles": "KPI","espanol": "indicador clave de rendimiento","categoria": "analisis"},
+      {"ingles": "metric","espanol": "métrica","categoria": "analisis"},
+      {"ingles": "trend","espanol": "tendencia","categoria": "analisis"},
+      {"ingles": "insight","espanol": "hallazgo","categoria": "analisis"},
+
+      {"ingles": "data visualization","espanol": "visualización de datos","categoria": "visualizacion"},
+      {"ingles": "dashboard","espanol": "panel de control","categoria": "visualizacion"},
+      {"ingles": "chart","espanol": "gráfico","categoria": "visualizacion"},
+      {"ingles": "report","espanol": "reporte","categoria": "visualizacion"},
+
+      {"ingles": "data cleaning","espanol": "limpieza de datos","categoria": "preparacion"},
+      {"ingles": "data transformation","espanol": "transformación de datos","categoria": "preparacion"},
+      {"ingles": "missing values","espanol": "valores faltantes","categoria": "preparacion"},
+      {"ingles": "outlier","espanol": "valor atípico","categoria": "preparacion"},
+      {"ingles": "normalization","espanol": "normalización","categoria": "preparacion"},
+
+      {"ingles": "machine learning","espanol": "aprendizaje automático","categoria": "ml"},
+      {"ingles": "feature","espanol": "característica","categoria": "ml"},
+      {"ingles": "label","espanol": "etiqueta","categoria": "ml"},
+      {"ingles": "training data","espanol": "datos de entrenamiento","categoria": "ml"},
+      {"ingles": "test data","espanol": "datos de prueba","categoria": "ml"},
+      {"ingles": "model","espanol": "modelo","categoria": "ml"},
+      {"ingles": "prediction","espanol": "predicción","categoria": "ml"},
+      {"ingles": "accuracy","espanol": "precisión","categoria": "ml"},
+
+      {"ingles": "deployment","espanol": "despliegue","categoria": "proyectos"},
+      {"ingles": "version control","espanol": "control de versiones","categoria": "proyectos"},
+      {"ingles": "stakeholder","espanol": "parte interesada","categoria": "proyectos"},
+      {"ingles": "requirement","espanol": "requerimiento","categoria": "proyectos"},
+      {"ingles": "deadline","espanol": "fecha límite","categoria": "proyectos"},
+
+      {"ingles": "data quality","espanol": "calidad de datos","categoria": "gobernanza"},
+      {"ingles": "data governance","espanol": "gobernanza de datos","categoria": "gobernanza"},
+      {"ingles": "data privacy","espanol": "privacidad de datos","categoria": "gobernanza"},
+      {"ingles": "access control","espanol": "control de acceso","categoria": "gobernanza"}
+    ],
+   
+    "palabrass": [
+      {"ingles": "id","espanol": "identificador","categoria": "columnas_generales"},
+      {"ingles": "user_id","espanol": "id de usuario","categoria": "columnas_generales"},
+      {"ingles": "customer_id","espanol": "id de cliente","categoria": "columnas_generales"},
+      {"ingles": "order_id","espanol": "id de orden","categoria": "columnas_generales"},
+      {"ingles": "product_id","espanol": "id de producto","categoria": "columnas_generales"},
+
+      {"ingles": "created_at","espanol": "fecha de creación","categoria": "columnas_fechas"},
+      {"ingles": "updated_at","espanol": "fecha de actualización","categoria": "columnas_fechas"},
+      {"ingles": "deleted_at","espanol": "fecha de eliminación","categoria": "columnas_fechas"},
+      {"ingles": "event_date","espanol": "fecha del evento","categoria": "columnas_fechas"},
+      {"ingles": "timestamp","espanol": "marca de tiempo","categoria": "columnas_fechas"},
+
+      {"ingles": "name","espanol": "nombre","categoria": "columnas_texto"},
+      {"ingles": "first_name","espanol": "nombre","categoria": "columnas_texto"},
+      {"ingles": "last_name","espanol": "apellido","categoria": "columnas_texto"},
+      {"ingles": "email","espanol": "correo electrónico","categoria": "columnas_texto"},
+      {"ingles": "status","espanol": "estado","categoria": "columnas_texto"},
+      {"ingles": "category","espanol": "categoría","categoria": "columnas_texto"},
+      {"ingles": "description","espanol": "descripción","categoria": "columnas_texto"},
+
+      {"ingles": "price","espanol": "precio","categoria": "columnas_numericas"},
+      {"ingles": "amount","espanol": "monto","categoria": "columnas_numericas"},
+      {"ingles": "total","espanol": "total","categoria": "columnas_numericas"},
+      {"ingles": "quantity","espanol": "cantidad","categoria": "columnas_numericas"},
+      {"ingles": "discount","espanol": "descuento","categoria": "columnas_numericas"},
+      {"ingles": "tax","espanol": "impuesto","categoria": "columnas_numericas"},
+      {"ingles": "revenue","espanol": "ingresos","categoria": "columnas_numericas"},
+      {"ingles": "cost","espanol": "costo","categoria": "columnas_numericas"},
+
+      {"ingles": "is_active","espanol": "está activo","categoria": "columnas_booleanas"},
+      {"ingles": "is_deleted","espanol": "está eliminado","categoria": "columnas_booleanas"},
+      {"ingles": "has_access","espanol": "tiene acceso","categoria": "columnas_booleanas"},
+      {"ingles": "is_valid","espanol": "es válido","categoria": "columnas_booleanas"},
+
+      {"ingles": "country","espanol": "país","categoria": "columnas_geograficas"},
+      {"ingles": "city","espanol": "ciudad","categoria": "columnas_geograficas"},
+      {"ingles": "region","espanol": "región","categoria": "columnas_geograficas"},
+      {"ingles": "latitude","espanol": "latitud","categoria": "columnas_geograficas"},
+      {"ingles": "longitude","espanol": "longitud","categoria": "columnas_geograficas"},
+
+      {"ingles": "source","espanol": "fuente","categoria": "columnas_data_engineering"},
+      {"ingles": "ingestion_date","espanol": "fecha de ingestión","categoria": "columnas_data_engineering"},
+      {"ingles": "processed_date","espanol": "fecha de procesamiento","categoria": "columnas_data_engineering"},
+      {"ingles": "batch_id","espanol": "id del lote","categoria": "columnas_data_engineering"},
+      {"ingles": "pipeline_name","espanol": "nombre del pipeline","categoria": "columnas_data_engineering"},
+
+      {"ingles": "metric_name","espanol": "nombre de la métrica","categoria": "columnas_analiticas"},
+      {"ingles": "metric_value","espanol": "valor de la métrica","categoria": "columnas_analiticas"},
+      {"ingles": "kpi","espanol": "indicador clave","categoria": "columnas_analiticas"},
+      {"ingles": "score","espanol": "puntuación","categoria": "columnas_analiticas"},
+
+      {"ingles": "prediction","espanol": "predicción","categoria": "columnas_ml"},
+      {"ingles": "probability","espanol": "probabilidad","categoria": "columnas_ml"},
+      {"ingles": "model_version","espanol": "versión del modelo","categoria": "columnas_ml"},
+      {"ingles": "feature_value","espanol": "valor de característica","categoria": "columnas_ml"}
+    ],
+  
+    "palabras": [
+      {"ingles": "session_id","espanol": "id de sesión","categoria": "columnas_eventos"},
+      {"ingles": "event_id","espanol": "id de evento","categoria": "columnas_eventos"},
+      {"ingles": "event_name","espanol": "nombre del evento","categoria": "columnas_eventos"},
+      {"ingles": "event_type","espanol": "tipo de evento","categoria": "columnas_eventos"},
+      {"ingles": "event_timestamp","espanol": "marca de tiempo del evento","categoria": "columnas_eventos"},
+      {"ingles": "page_url","espanol": "url de la página","categoria": "columnas_eventos"},
+      {"ingles": "referrer","espanol": "referente","categoria": "columnas_eventos"},
+      {"ingles": "device_type","espanol": "tipo de dispositivo","categoria": "columnas_eventos"},
+      {"ingles": "browser","espanol": "navegador","categoria": "columnas_eventos"},
+      {"ingles": "operating_system","espanol": "sistema operativo","categoria": "columnas_eventos"},
+
+      {"ingles": "account_id","espanol": "id de cuenta","categoria": "columnas_negocio"},
+      {"ingles": "account_type","espanol": "tipo de cuenta","categoria": "columnas_negocio"},
+      {"ingles": "subscription_id","espanol": "id de suscripción","categoria": "columnas_negocio"},
+      {"ingles": "subscription_status","espanol": "estado de suscripción","categoria": "columnas_negocio"},
+      {"ingles": "plan_name","espanol": "nombre del plan","categoria": "columnas_negocio"},
+      {"ingles": "billing_cycle","espanol": "ciclo de facturación","categoria": "columnas_negocio"},
+      {"ingles": "renewal_date","espanol": "fecha de renovación","categoria": "columnas_negocio"},
+
+      {"ingles": "payment_id","espanol": "id de pago","categoria": "columnas_financieras"},
+      {"ingles": "payment_method","espanol": "método de pago","categoria": "columnas_financieras"},
+      {"ingles": "transaction_id","espanol": "id de transacción","categoria": "columnas_financieras"},
+      {"ingles": "transaction_date","espanol": "fecha de transacción","categoria": "columnas_financieras"},
+      {"ingles": "currency","espanol": "moneda","categoria": "columnas_financieras"},
+      {"ingles": "exchange_rate","espanol": "tipo de cambio","categoria": "columnas_financieras"},
+      {"ingles": "gross_amount","espanol": "monto bruto","categoria": "columnas_financieras"},
+      {"ingles": "net_amount","espanol": "monto neto","categoria": "columnas_financieras"},
+
+      {"ingles": "inventory_id","espanol": "id de inventario","categoria": "columnas_operativas"},
+      {"ingles": "stock_quantity","espanol": "cantidad en stock","categoria": "columnas_operativas"},
+      {"ingles": "warehouse_id","espanol": "id de almacén","categoria": "columnas_operativas"},
+      {"ingles": "supplier_id","espanol": "id de proveedor","categoria": "columnas_operativas"},
+      {"ingles": "lead_time","espanol": "tiempo de entrega","categoria": "columnas_operativas"},
+      {"ingles": "reorder_point","espanol": "punto de reposición","categoria": "columnas_operativas"},
+
+      {"ingles": "error_code","espanol": "código de error","categoria": "columnas_tecnicas"},
+      {"ingles": "error_message","espanol": "mensaje de error","categoria": "columnas_tecnicas"},
+      {"ingles": "log_level","espanol": "nivel de registro","categoria": "columnas_tecnicas"},
+      {"ingles": "execution_time","espanol": "tiempo de ejecución","categoria": "columnas_tecnicas"},
+      {"ingles": "record_count","espanol": "cantidad de registros","categoria": "columnas_tecnicas"},
+      {"ingles": "row_number","espanol": "número de fila","categoria": "columnas_tecnicas"},
+      {"ingles": "checksum","espanol": "suma de verificación","categoria": "columnas_tecnicas"},
+
+      {"ingles": "experiment_id","espanol": "id de experimento","categoria": "columnas_experimentos"},
+      {"ingles": "experiment_group","espanol": "grupo de experimento","categoria": "columnas_experimentos"},
+      {"ingles": "control_group","espanol": "grupo de control","categoria": "columnas_experimentos"},
+      {"ingles": "treatment_group","espanol": "grupo de tratamiento","categoria": "columnas_experimentos"},
+      {"ingles": "conversion","espanol": "conversión","categoria": "columnas_experimentos"},
+      {"ingles": "conversion_rate","espanol": "tasa de conversión","categoria": "columnas_experimentos"},
+
+      {"ingles": "confidence_score","espanol": "nivel de confianza","categoria": "columnas_ml"},
+      {"ingles": "feature_importance","espanol": "importancia de característica","categoria": "columnas_ml"},
+      {"ingles": "model_name","espanol": "nombre del modelo","categoria": "columnas_ml"},
+      {"ingles": "model_type","espanol": "tipo de modelo","categoria": "columnas_ml"},
+      {"ingles": "training_date","espanol": "fecha de entrenamiento","categoria": "columnas_ml"},
+      {"ingles": "inference_time","espanol": "tiempo de inferencia","categoria": "columnas_ml"}
     ]
   }
 }
+
