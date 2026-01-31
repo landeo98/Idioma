@@ -7,6 +7,10 @@ import pyttsx3
 import subprocess
 
 # Detectar sistema y TTS una sola vez
+import platform
+import subprocess
+import os
+
 SISTEMA = platform.system()
 TTS_TERMUX = (
     SISTEMA == "Linux"
@@ -14,15 +18,13 @@ TTS_TERMUX = (
 )
 
 def pronunciar_palabra(palabra):
-    """Pronuncia una palabra en inglés, Windows y Termux"""
+    """Pronuncia palabra en Windows o Termux"""
     try:
         if SISTEMA == "Windows":
             import pyttsx3
             engine = pyttsx3.init()
             engine.setProperty('rate', 150)
             engine.setProperty('volume', 0.9)
-
-            # Voz en inglés (si existe)
             try:
                 engine.setProperty(
                     'voice',
@@ -30,7 +32,6 @@ def pronunciar_palabra(palabra):
                 )
             except Exception:
                 pass
-
             print(f"🔊 Pronunciando: {palabra}")
             engine.say(palabra)
             engine.runAndWait()
@@ -38,11 +39,12 @@ def pronunciar_palabra(palabra):
 
         elif TTS_TERMUX:
             print(f"🔊 Pronunciando: {palabra}")
+            # Llamada segura en Termux
             subprocess.Popen([
                 "termux-tts-speak",
                 "--stream",
                 "-l", "en-US",
-                palabra
+                str(palabra)
             ])
 
         else:
@@ -51,6 +53,7 @@ def pronunciar_palabra(palabra):
     except Exception as e:
         print(f"⚠️ Error de audio: {e}")
         print(f"   Palabra: {palabra}")
+
 
 # def pronunciar_palabra(palabra):
 #     """Pronuncia una palabra en inglés, Windows y Termux"""
