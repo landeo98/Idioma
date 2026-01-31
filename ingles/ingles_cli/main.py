@@ -1,97 +1,94 @@
 from ingles_cli.logic.funciones import iterar_json_aleatorio,iterar_listenig
+import os
+from pathlib import Path
+import platform
+import sys
 import pyttsx3
-import os
-from pathlib import Path
-import platform
-import os
-import sys
+import subprocess
 
-""" main.py
- ├─ main()
- ├─ menu_principal()
- ├─ modo_vocabulario()
- ├─ modo_escritura()
- ├─ modo_listening()
- └─ modo_estudio_frases()
- """
-from pathlib import Path
-
-""" El guion bajo _ al inicio significa:
-
-👉 “esto es interno, no lo uses directamente desde fuera”
-Python NO lo hace privado de verdad, pero los programadores entienden:
-
-“esto no se toca desde otros archivos”
-🔍 Ejemplo sencillo
-_engine = None   # interna
-engine = None    # pública
-
-La diferencia no es técnica, es mental / de diseño.
-✔ _engine → uso interno del módulo
-✔ get_engine() → forma correcta de acceder """
-import platform
-import os
-import sys
+# Detectar sistema y TTS una sola vez
+SISTEMA = platform.system()
+TTS_TERMUX = (
+    SISTEMA == "Linux"
+    and os.system("which termux-tts-speak > /dev/null 2>&1") == 0
+)
 
 def pronunciar_palabra(palabra):
     """Pronuncia una palabra en inglés, Windows y Termux"""
-    sistema = platform.system()
-
     try:
-        if sistema == "Windows":
+        if SISTEMA == "Windows":
             import pyttsx3
             engine = pyttsx3.init()
             engine.setProperty('rate', 150)
             engine.setProperty('volume', 0.9)
-            voices = engine.getProperty('voices')
-            if len(voices) > 1:
-                # Buscar voz en inglés
-                for v in voices:
-                    engine.setProperty('voice', r'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0')
 
-                    
+            # Voz en inglés (si existe)
+            try:
+                engine.setProperty(
+                    'voice',
+                    r'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0'
+                )
+            except Exception:
+                pass
 
             print(f"🔊 Pronunciando: {palabra}")
             engine.say(palabra)
             engine.runAndWait()
             engine.stop()
 
-        elif sistema == "Linux":  # Termux se detecta como Linux
-            # Verifica que termux-tts-speak esté disponible
-            if os.system("which termux-tts-speak > /dev/null 2>&1") == 0:
-                print(f"🔊 Pronunciando: {palabra}")
-                os.system(f'termux-tts-speak -l en-US "{palabra}"')
-            else:
-                print(f"⚠️ termux-tts-speak no disponible, palabra: {palabra}")
+        elif TTS_TERMUX:
+            print(f"🔊 Pronunciando: {palabra}")
+            subprocess.Popen([
+                "termux-tts-speak",
+                "--stream",
+                "-l", "en-US",
+                palabra
+            ])
 
         else:
-            print(f"⚠️ Pronunciación no soportada en {sistema}: {palabra}")
+            print(f"⚠️ Pronunciación no soportada en {SISTEMA}: {palabra}")
 
     except Exception as e:
         print(f"⚠️ Error de audio: {e}")
         print(f"   Palabra: {palabra}")
+
 # def pronunciar_palabra(palabra):
-#     """Pronuncia una palabra en inglés"""
+#     """Pronuncia una palabra en inglés, Windows y Termux"""
+#     sistema = platform.system()
 
 #     try:
-#         import pyttsx3
-#         engine = pyttsx3.init()
-#         engine.setProperty('rate', 150)
-#         engine.setProperty('volume', 0.9)
+#         if sistema == "Windows":
+#             import pyttsx3
+#             engine = pyttsx3.init()
+#             engine.setProperty('rate', 150)
+#             engine.setProperty('volume', 0.9)
+#             voices = engine.getProperty('voices')
+#             if len(voices) > 1:
+#                 # Buscar voz en inglés
+#                 for v in voices:
+#                     engine.setProperty('voice', r'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0')
 
-#         voices = engine.getProperty('voices')
-#         if len(voices) > 1:
-#             engine.setProperty('voice', voices[1].id)
+                    
 
-#         print(f"🔊 Pronunciando: {palabra}")
-#         engine.say(palabra)
-#         engine.runAndWait()
-#         engine.stop()
+#             print(f"🔊 Pronunciando: {palabra}")
+#             engine.say(palabra)
+#             engine.runAndWait()
+#             engine.stop()
+
+#         elif sistema == "Linux":  # Termux se detecta como Linux
+#             # Verifica que termux-tts-speak esté disponible
+#             if os.system("which termux-tts-speak > /dev/null 2>&1") == 0:
+#                 print(f"🔊 Pronunciando: {palabra}")
+#                 os.system(f'termux-tts-speak -l en-US "{palabra}"')
+#             else:
+#                 print(f"⚠️ termux-tts-speak no disponible, palabra: {palabra}")
+
+#         else:
+#             print(f"⚠️ Pronunciación no soportada en {sistema}: {palabra}")
 
 #     except Exception as e:
 #         print(f"⚠️ Error de audio: {e}")
 #         print(f"   Palabra: {palabra}")
-
 
 
 def obtener_ruta(nombre_archivo: str) -> Path:
@@ -113,6 +110,7 @@ def modo_vocabulario(ruta):
     contador = 1
 
     for palabra in iterar_json_aleatorio(ruta):
+        respuesta = input("\n(ENTER=siguiente | r=repetir | s=salir): ").strip().lower()
 
         while True:
             print(f"\n{'='*40}")
@@ -123,7 +121,7 @@ def modo_vocabulario(ruta):
             print(f"📂 Categoría: {palabra['categoria']}")
             pronunciar_palabra(palabra['ingles'])
 
-            respuesta = input("\n(ENTER=siguiente | r=repetir | s=salir): ").strip().lower()
+            #respuesta = input("\n(ENTER=siguiente | r=repetir | s=salir): ").strip().lower()
 
             if respuesta == 's':
                 print(f"\n📊 Practicaste {contador-1} palabras.")
