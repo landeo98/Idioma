@@ -104,11 +104,19 @@
         "espanol": "pequeño",
         "categoria": "adjetivos"
       },
+      {"ingles": "go", "espanol": "ir","categoria": "verbos"
+      },
+
+
+      {"ingles": "run", "espanol": "correr","categoria": "verbos"
+      },
       {
-        "ingles": "go",
-        "espanol": "ir",
+        "ingles": "see",
+        "espanol": "ver",
         "categoria": "verbos"
       },
+      
+
       {
         "ingles": "come",
         "espanol": "venir",
@@ -129,21 +137,44 @@
         "espanol": "uno",
         "categoria": "números"
       },
-      {
-        "ingles": "two",
-        "espanol": "dos",
-        "categoria": "números"
+      {"ingles": "two", "espanol": "dos", "categoria": "números"
+},
+      {"ingles": "three","espanol": "tres","categoria": "números"
       },
-      {
-        "ingles": "three",
-        "espanol": "tres",
-        "categoria": "números"
+      {"ingles": "now", "espanol": "ahora","categoria": "adverbios"
       },
-      {
-        "ingles": "now",
-        "espanol": "ahora",
-        "categoria": "adverbios"
+      {"ingles": "then", "espanol": "entonces","categoria": "adverbios"
       },
+      {"ingles": "very", "espanol": "muy","categoria": "adverbios"
+      },
+      {"ingles": "quickly", "espanol": "rápidamente","categoria": "adverbios"
+      },
+      {"ingles": "slowly", "espanol": "lentamente","categoria": "adverbios"
+      },
+      {"ingles": "today", "espanol": "hoy","categoria": "tiempo"
+      },
+      {"ingles": "tomorrow", "espanol": "mañana (día siguiente)","categoria": "tiempo"
+      },
+      {"ingles": "yesterday", "espanol": "ayer","categoria": "tiempo"
+      },
+      {"ingles": "morning", "espanol": "mañana (parte del día)","categoria": "tiempo"
+      },
+      {"ingles": "afternoon", "espanol": "tarde","categoria": "tiempo"
+      },
+      {"ingles": "night", "espanol": "noche","categoria": "tiempo"
+      },
+
+
+      {"ingles": "computer", "espanol": "ordenador/computadora", "categoria": "hardware"},
+      {"ingles": "keyboard", "espanol": "teclado", "categoria": "hardware"},
+      {"ingles": "mouse", "espanol": "ratón", "categoria": "hardware"},
+      {"ingles": "monitor", "espanol": "monitor", "categoria": "hardware"},
+      {"ingles": "printer", "espanol": "impresora", "categoria": "hardware"},
+      {"ingles": "scanner", "espanol": "escáner", "categoria": "hardware"},
+      {"ingles": "laptop", "espanol": "portátil", "categoria": "hardware"},
+      {"ingles": "tablet", "espanol": "tableta", "categoria": "hardware"},
+      {"ingles": "smartphone", "espanol": "teléfono inteligente", "categoria": "hardware"},
+
       {"ingles": "computer", "espanol": "ordenador/computadora", "categoria": "hardware"},
       {"ingles": "software", "espanol": "software", "categoria": "conceptos"},
       {"ingles": "hardware", "espanol": "hardware", "categoria": "conceptos"},
