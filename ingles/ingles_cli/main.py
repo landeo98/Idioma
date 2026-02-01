@@ -11,44 +11,52 @@ import platform
 import subprocess
 import os
 
-SISTEMA = platform.system()
-TTS_TERMUX = (
-    SISTEMA == "Linux"
-    and os.system("which termux-tts-speak > /dev/null 2>&1") == 0
-)
+
+# Inicializa el proceso TTS una vez si estamos en Linux/Termux
+tts_proc = None
+if platform.system() == "Linux":
+    try:
+        # -s 150 -> velocidad similar a pyttsx3
+        # -v en-us -> voz inglesa
+        tts_proc = subprocess.Popen(
+            ['espeak', '-s', '150', '-v', 'en-us'],
+            stdin=subprocess.PIPE
+        )
+    except Exception as e:
+        print(f"⚠️ Error al iniciar espeak: {e}")
+        tts_proc = None
 
 def pronunciar_palabra(palabra):
-    """Pronuncia palabra en Windows o Termux"""
+    """Pronuncia una palabra en inglés. Optimizado para Windows y Termux/Linux"""
+    sistema = platform.system()
+
     try:
-        if SISTEMA == "Windows":
+        if sistema == "Windows":
             import pyttsx3
             engine = pyttsx3.init()
             engine.setProperty('rate', 150)
             engine.setProperty('volume', 0.9)
-            try:
-                engine.setProperty(
-                    'voice',
-                    r'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0'
-                )
-            except Exception:
-                pass
+            voices = engine.getProperty('voices')
+            # Intenta poner voz en inglés
+            for v in voices:
+                 engine.setProperty('voice', r'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0')
+
             print(f"🔊 Pronunciando: {palabra}")
             engine.say(palabra)
             engine.runAndWait()
             engine.stop()
 
-        elif TTS_TERMUX:
-            print(f"🔊 Pronunciando: {palabra}")
-            # Llamada segura en Termux
-            subprocess.Popen([
-                "termux-tts-speak",
-                "--stream",
-                "-l", "en-US",
-                str(palabra)
-            ])
+        elif sistema == "Linux":
+            if tts_proc is not None:
+                # Envía la palabra al proceso persistente de espeak
+                print(f"🔊 Pronunciando: {palabra}")
+                tts_proc.stdin.write(f"{palabra}\n".encode())
+                tts_proc.stdin.flush()
+            else:
+                print(f"⚠️ espeak no disponible, palabra: {palabra}")
 
         else:
-            print(f"⚠️ Pronunciación no soportada en {SISTEMA}: {palabra}")
+            print(f"⚠️ Pronunciación no soportada en {sistema}: {palabra}")
 
     except Exception as e:
         print(f"⚠️ Error de audio: {e}")
@@ -113,7 +121,7 @@ def modo_vocabulario(ruta):
     contador = 1
 
     for palabra in iterar_json_aleatorio(ruta):
-        respuesta = input("\n(ENTER=siguiente | r=repetir | s=salir): ").strip().lower()
+        
 
         while True:
             print(f"\n{'='*40}")
@@ -124,7 +132,7 @@ def modo_vocabulario(ruta):
             print(f"📂 Categoría: {palabra['categoria']}")
             pronunciar_palabra(palabra['ingles'])
 
-            #respuesta = input("\n(ENTER=siguiente | r=repetir | s=salir): ").strip().lower()
+            respuesta = input("\n(ENTER=siguiente | r=repetir | s=salir): ").strip().lower()
 
             if respuesta == 's':
                 print(f"\n📊 Practicaste {contador-1} palabras.")
