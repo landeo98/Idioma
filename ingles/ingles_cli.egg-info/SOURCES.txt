@@ -9,3 +9,4 @@ ingles_cli.egg-info/requires.txt
 ingles_cli.egg-info/top_level.txt
 ingles_cli/logic/__init__.py
 ingles_cli/logic/funciones.py
+ingles_cli/logic/shadowing.py
