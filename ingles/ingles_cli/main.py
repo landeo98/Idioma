@@ -55,7 +55,7 @@ def pronunciar_palabra(palabra, velocidad=150, volumen=0.9):
 
                 print(f"🔊 Pronunciando: {palabra} \n(velocidad {rate_termux})")
                 os.system(
-                    f'termux-tts-speak -l en-US -r {rate_termux} "{texto}"'
+                    f'termux-tts-speak -l en-US -r {rate_termux} {texto}'
                 )
             else:
                 print(f"⚠️ termux-tts-speak no disponible")
