@@ -50,8 +50,11 @@ def shadowing_parrafos(carpeta, pronunciar_palabra, velocidad=150):
         print(parrafo)                        # Mostrar párrafo en inglés
         pronunciar_palabra(parrafo, velocidad) # Pronunciar con TTS
         if trad:
-            print(f"   ↳ {trad}")             # Mostrar traducción
-        input("Presiona Enter para siguiente párrafo...")  # Pausa opcional
+            print(f"\033[32m   ↳ {trad}\033[0m")             # Mostrar traducción
+        continuar=input("Presiona Enter para siguiente párrafo...")
+        if continuar.lower() == 's':
+            print("\n🛑 Sesión interrumpida por el usuario.")
+            return
 
     print("\n✅ Fin del archivo\n")
 

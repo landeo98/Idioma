@@ -1,0 +1,6 @@
+Hi, do you want to grab lunch together today? || Hola, ¿quieres almorzar juntos hoy?
+Sure! Where should we go? || ¡Claro! ¿A dónde vamos?
+How about the new Italian restaurant downtown? || ¿Qué tal el nuevo restaurante italiano en el centro?
+Sounds great. I heard their pasta is really good. || Suena genial. Escuché que su pasta es muy buena.
+I’ll make a reservation for 1 PM. || Haré una reserva para la 1 PM.
+Perfect! See you there. || ¡Perfecto! Nos vemos allí.
