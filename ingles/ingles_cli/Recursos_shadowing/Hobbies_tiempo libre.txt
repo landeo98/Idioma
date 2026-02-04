@@ -1,5 +1,10 @@
-What do you usually do on weekends? || ¿Qué sueles hacer los fines de semana?
-I like to play soccer and watch movies. || Me gusta jugar al fútbol y ver películas.
-Do you play any musical instruments? || ¿Tocas algún instrumento musical?
-Yes, I play the guitar. || Sí, toco la guitarra.
-That’s cool! Maybe you can teach me sometime. || ¡Qué genial! Tal vez me puedas enseñar alguna vez.
+What do you usually do on weekends? ||
+¿Qué sueles hacer los fines de semana?
+I like to play soccer and watch movies. || 
+Me gusta jugar al fútbol y ver películas.
+Do you play any musical instruments? ||
+ ¿Tocas algún instrumento musical?
+Yes, I play the guitar. || 
+Sí, toco la guitarra.
+That’s cool! Maybe you can teach me sometime. || 
+¡Qué genial! Tal vez me puedas enseñar alguna vez.

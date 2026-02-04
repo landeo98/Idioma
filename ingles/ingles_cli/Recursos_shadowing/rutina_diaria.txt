@@ -1,2 +1,16 @@
-Every weekday, I wake up at six thirty in the morning. I turn off my alarm and get out of bed slowly. First, I go to the bathroom and wash my face. Then I brush my teeth and take a shower. After that, I get dressed and go to the kitchen to prepare breakfast. I usually eat bread, eggs, and drink coffee. While I eat, I check my phone and look at the news. When I finish, I clean the table and get ready to start my day. ||  
-Cada día de la semana, me despierto a las seis y media de la mañana. Apago la alarma y me levanto despacio. Primero voy al baño y me lavo la cara. Luego me cepillo los dientes y me doy una ducha. Después me visto y voy a la cocina a preparar el desayuno. Normalmente como pan, huevos y tomo café. Mientras como, reviso mi teléfono y miro las noticias. Cuando termino, limpio la mesa y me preparo para empezar el día.
+Every weekday, I wake up at six thirty in the morning. 
+I turn off my alarm and get out of bed slowly. 
+First, I go to the bathroom and wash my face.
+ Then I brush my teeth and take a shower. After that,
+ I get dressed and go to the kitchen to prepare breakfast. 
+I usually eat bread, eggs, and drink coffee. While I eat, 
+I check my phone and look at the news. When I finish, 
+I clean the table and get ready to start my day. ||  
+Cada día de la semana, me despierto a las seis y
+ media de la mañana. Apago la alarma y me levanto despacio.
+ Primero voy al baño y me lavo la cara. Luego me cepillo los 
+dientes y me doy una ducha. Después me visto y voy a la 
+cocina a preparar el desayuno. Normalmente como pan,
+ huevos y tomo café. Mientras como, reviso mi teléfono 
+y miro las noticias. Cuando termino, limpio la mesa y 
+me preparo para empezar el día.

@@ -1,2 +1,10 @@
-I like talking with my friends because it makes me feel good. We talk about our day, our plans, and our problems. Sometimes we laugh a lot, and sometimes we listen to each other. Good conversations help reduce stress and make life better. I try to be a good listener and speak clearly. ||  
-Me gusta hablar con mis amigos porque me hace sentir bien. Hablamos sobre nuestro día, nuestros planes y nuestros problemas. A veces reímos mucho y otras veces nos escuchamos. Las buenas conversaciones ayudan a reducir el estrés y hacen la vida mejor. Trato de ser un buen oyente y hablar con claridad.
+I like talking with my friends because it makes me feel good. 
+We talk about our day, our plans, and our problems.
+Sometimes we laugh a lot, and sometimes we listen to each other.
+Good conversations help reduce stress and make life better.
+I try to be a good listener and speak clearly. ||  
+Me gusta hablar con mis amigos porque me hace sentir bien.
+Hablamos sobre nuestro día, nuestros planes y nuestros problemas.
+A veces reímos mucho y otras veces nos escuchamos.
+Las buenas conversaciones ayudan a reducir el estrés y hacen 
+la vida mejor. Trato de ser un buen oyente y hablar con claridad.

@@ -1,2 +1,14 @@
-Food is an important part of my day. I try to eat simple and healthy meals. For breakfast, I eat fruit or eggs. For lunch, I usually eat rice, chicken, or vegetables. In the evening, I prefer something light. I drink water during the day and avoid too much sugar. Eating well helps me feel strong and have more energy. ||  
-La comida es una parte importante de mi día. Trato de comer comidas sencillas y saludables. Para el desayuno, como fruta o huevos. Para el almuerzo, normalmente como arroz, pollo o verduras. Por la noche, prefiero algo ligero. Bebo agua durante el día y evito mucho azúcar. Comer bien me ayuda a sentirme fuerte y tener más energía.
+Food is an important part of my day.
+I try to eat simple and healthy meals. 
+For breakfast, I eat fruit or eggs. 
+For lunch, I usually eat rice, chicken, 
+or vegetables. In the evening, I prefer something light.
+I drink water during the day and avoid too much sugar. 
+Eating well helps me feel strong and have more energy. ||  
+La comida es una parte importante de mi día. 
+Trato de comer comidas sencillas y saludables. 
+Para el desayuno, como fruta o huevos. 
+Para el almuerzo, normalmente como arroz, pollo o verduras. 
+Por la noche, prefiero algo ligero. 
+Bebo agua durante el día y evito mucho azúcar. 
+Comer bien me ayuda a sentirme fuerte y tener más energía.

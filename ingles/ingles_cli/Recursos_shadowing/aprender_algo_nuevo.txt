@@ -1,2 +1,12 @@
-Learning something new takes time and patience. At the beginning, everything feels difficult. But with practice, things become easier. I try to learn step by step and not rush. Making mistakes is normal and part of the process. Every small improvement is important. ||  
-Aprender algo nuevo lleva tiempo y paciencia. Al principio, todo se siente difícil. Pero con la práctica, las cosas se vuelven más fáciles. Trato de aprender paso a paso y no apresurarme. Cometer errores es normal y parte del proceso. Cada pequeña mejora es importante.
+Learning something new takes time and patience.
+ At the beginning, everything feels difficult. 
+But with practice, things become easier. 
+I try to learn step by step and not rush. 
+Making mistakes is normal and part of the process.
+ Every small improvement is important. ||  
+Aprender algo nuevo lleva tiempo y paciencia. 
+Al principio, todo se siente difícil. Pero con la práctica,
+las cosas se vuelven más fáciles. 
+Trato de aprender paso a paso y no apresurarme.
+Cometer errores es normal y parte del proceso. 
+Cada pequeña mejora es importante.
