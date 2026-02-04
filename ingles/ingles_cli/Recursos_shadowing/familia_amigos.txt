@@ -1,5 +1,10 @@
-How’s your family doing? || ¿Cómo está tu familia?
-They’re doing great, thanks for asking. || Están muy bien, gracias por preguntar.
-I’m planning to visit my grandparents this weekend. || Estoy planeando visitar a mis abuelos este fin de semana.
-That sounds nice. They’ll be happy to see you. || Suena bien. Se alegrarán de verte.
-Yes, I can’t wait! || ¡Sí, no puedo esperar!
+How’s your family doing? ||
+ ¿Cómo está tu familia?
+They’re doing great, thanks for asking. ||
+ Están muy bien, gracias por preguntar.
+I’m planning to visit my grandparents this weekend. ||
+Estoy planeando visitar a mis abuelos este fin de semana.
+That sounds nice. They’ll be happy to see you. ||
+Suena bien. Se alegrarán de verte.
+Yes, I can’t wait! ||
+¡Sí, no puedo esperar!

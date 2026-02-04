@@ -1,169 +1,198 @@
 {
   "vocabulario_ingles": {
-    "categoria": "basico",
-    "palajbras": [
-      {"ingles": "hello","espanol": "hola","categoria": "saludos"},
-      {"ingles": "goodbye","espanol": "adiós","categoria": "saludos"},
-      {
-        "ingles": "yes",
-        "espanol": "sí",
-        "categoria": "respuestas"
-      },
-      {
-        "ingles": "no",
-        "espanol": "no",
-        "categoria": "respuestas"
-      },
-      {
-        "ingles": "please",
-        "espanol": "por favor",
-        "categoria": "cortesía"
-      },
-      {
-        "ingles": "thank you",
-        "espanol": "gracias",
-        "categoria": "cortesía"
-      },
-      {
-        "ingles": "sorry",
-        "espanol": "lo siento",
-        "categoria": "cortesía"
-      },
-      {
-        "ingles": "I",
-        "espanol": "yo",
-        "categoria": "pronombres"
-      },
-      {
-        "ingles": "you",
-        "espanol": "tú/usted",
-        "categoria": "pronombres"
-      },
-      {
-        "ingles": "we",
-        "espanol": "nosotros",
-        "categoria": "pronombres"
-      },
-      {
-        "ingles": "what",
-        "espanol": "qué",
-        "categoria": "preguntas"
-      },
-      {
-        "ingles": "where",
-        "espanol": "dónde",
-        "categoria": "preguntas"
-      },
-      {
-        "ingles": "how",
-        "espanol": "cómo",
-        "categoria": "preguntas"
-      },
-      {
-        "ingles": "time",
-        "espanol": "tiempo/hora",
-        "categoria": "sustantivos"
-      },
-      {
-        "ingles": "day",
-        "espanol": "día",
-        "categoria": "sustantivos"
-      },
-      {
-        "ingles": "water",
-        "espanol": "agua",
-        "categoria": "sustantivos"
-      },
-      {
-        "ingles": "food",
-        "espanol": "comida",
-        "categoria": "sustantivos"
-      },
-      {
-        "ingles": "house",
-        "espanol": "casa",
-        "categoria": "sustantivos"
-      },
-      {
-        "ingles": "good",
-        "espanol": "bueno",
-        "categoria": "adjetivos"
-      },
-      {
-        "ingles": "bad",
-        "espanol": "malo",
-        "categoria": "adjetivos"
-      },
-      {
-        "ingles": "big",
-        "espanol": "grande",
-        "categoria": "adjetivos"
-      },
-      {
-        "ingles": "small",
-        "espanol": "pequeño",
-        "categoria": "adjetivos"
-      },
-      {"ingles": "go", "espanol": "ir","categoria": "verbos"
-      },
+    "palabras": [
+  { "ingles": "hello", "espanol": "hola", "categoria": "saludos" },
+  { "ingles": "good morning", "espanol": "buenos días", "categoria": "saludos" },
+  { "ingles": "good night", "espanol": "buenas noches", "categoria": "saludos" },
+  { "ingles": "goodbye", "espanol": "adiós", "categoria": "saludos" },
+  { "ingles": "please", "espanol": "por favor", "categoria": "modales" },
+  { "ingles": "thank you", "espanol": "gracias", "categoria": "modales" },
+  { "ingles": "sorry", "espanol": "lo siento", "categoria": "modales" },
+  { "ingles": "excuse me", "espanol": "disculpa", "categoria": "modales" },
+  
+  { "ingles": "water", "espanol": "agua", "categoria": "comida" },
+  { "ingles": "food", "espanol": "comida", "categoria": "comida" },
+  { "ingles": "breakfast", "espanol": "desayuno", "categoria": "comida" },
+  { "ingles": "lunch", "espanol": "almuerzo", "categoria": "comida" },
+  { "ingles": "dinner", "espanol": "cena", "categoria": "comida" },
+  { "ingles": "fruit", "espanol": "fruta", "categoria": "comida" },
+  { "ingles": "vegetables", "espanol": "verduras", "categoria": "comida" },
+  { "ingles": "chicken", "espanol": "pollo", "categoria": "comida" },
+  { "ingles": "fish", "espanol": "pescado", "categoria": "comida" },
+  
+  { "ingles": "house", "espanol": "casa", "categoria": "vida diaria" },
+  { "ingles": "apartment", "espanol": "apartamento", "categoria": "vida diaria" },
+  { "ingles": "room", "espanol": "habitación", "categoria": "vida diaria" },
+  { "ingles": "kitchen", "espanol": "cocina", "categoria": "vida diaria" },
+  { "ingles": "living room", "espanol": "sala", "categoria": "vida diaria" },
+  { "ingles": "bed", "espanol": "cama", "categoria": "vida diaria" },
+  { "ingles": "chair", "espanol": "silla", "categoria": "vida diaria" },
+  { "ingles": "table", "espanol": "mesa", "categoria": "vida diaria" },
+  
+  { "ingles": "car", "espanol": "coche", "categoria": "transporte" },
+  { "ingles": "bus", "espanol": "autobús", "categoria": "transporte" },
+  { "ingles": "train", "espanol": "tren", "categoria": "transporte" },
+  { "ingles": "bicycle", "espanol": "bicicleta", "categoria": "transporte" },
+  { "ingles": "walk", "espanol": "caminar", "categoria": "acciones" },
+  { "ingles": "run", "espanol": "correr", "categoria": "acciones" },
+  { "ingles": "drive", "espanol": "conducir", "categoria": "acciones" },
+  
+  { "ingles": "happy", "espanol": "feliz", "categoria": "emociones" },
+  { "ingles": "sad", "espanol": "triste", "categoria": "emociones" },
+  { "ingles": "angry", "espanol": "enojado", "categoria": "emociones" },
+  { "ingles": "tired", "espanol": "cansado", "categoria": "emociones" },
+  { "ingles": "hungry", "espanol": "hambriento", "categoria": "emociones" },
+  { "ingles": "thirsty", "espanol": "sediento", "categoria": "emociones" },
+  
+  { "ingles": "yes", "espanol": "sí", "categoria": "conversación" },
+  { "ingles": "no", "espanol": "no", "categoria": "conversación" },
+  { "ingles": "maybe", "espanol": "quizás", "categoria": "conversación" },
+  { "ingles": "I think", "espanol": "creo que", "categoria": "conversación" },
+  { "ingles": "I don't know", "espanol": "no lo sé", "categoria": "conversación" },
 
+  { "ingles": "hello", "espanol": "hola", "categoria": "saludos" },
+  { "ingles": "good morning", "espanol": "buenos días", "categoria": "saludos" },
+  { "ingles": "good night", "espanol": "buenas noches", "categoria": "saludos" },
+  { "ingles": "goodbye", "espanol": "adiós", "categoria": "saludos" },
+  { "ingles": "please", "espanol": "por favor", "categoria": "modales" },
+  { "ingles": "thank you", "espanol": "gracias", "categoria": "modales" },
+  { "ingles": "sorry", "espanol": "lo siento", "categoria": "modales" },
+  { "ingles": "excuse me", "espanol": "disculpa", "categoria": "modales" },
+  
+  { "ingles": "water", "espanol": "agua", "categoria": "comida" },
+  { "ingles": "food", "espanol": "comida", "categoria": "comida" },
+  { "ingles": "breakfast", "espanol": "desayuno", "categoria": "comida" },
+  { "ingles": "lunch", "espanol": "almuerzo", "categoria": "comida" },
+  { "ingles": "dinner", "espanol": "cena", "categoria": "comida" },
+  { "ingles": "fruit", "espanol": "fruta", "categoria": "comida" },
+  { "ingles": "vegetables", "espanol": "verduras", "categoria": "comida" },
+  { "ingles": "chicken", "espanol": "pollo", "categoria": "comida" },
+  { "ingles": "fish", "espanol": "pescado", "categoria": "comida" },
+  
+  { "ingles": "house", "espanol": "casa", "categoria": "vida diaria" },
+  { "ingles": "apartment", "espanol": "apartamento", "categoria": "vida diaria" },
+  { "ingles": "room", "espanol": "habitación", "categoria": "vida diaria" },
+  { "ingles": "kitchen", "espanol": "cocina", "categoria": "vida diaria" },
+  { "ingles": "living room", "espanol": "sala", "categoria": "vida diaria" },
+  { "ingles": "bed", "espanol": "cama", "categoria": "vida diaria" },
+  { "ingles": "chair", "espanol": "silla", "categoria": "vida diaria" },
+  { "ingles": "table", "espanol": "mesa", "categoria": "vida diaria" },
+  
+  { "ingles": "car", "espanol": "coche", "categoria": "transporte" },
+  { "ingles": "bus", "espanol": "autobús", "categoria": "transporte" },
+  { "ingles": "train", "espanol": "tren", "categoria": "transporte" },
+  { "ingles": "bicycle", "espanol": "bicicleta", "categoria": "transporte" },
+  { "ingles": "walk", "espanol": "caminar", "categoria": "acciones" },
+  { "ingles": "run", "espanol": "correr", "categoria": "acciones" },
+  { "ingles": "drive", "espanol": "conducir", "categoria": "acciones" },
+  
+  { "ingles": "happy", "espanol": "feliz", "categoria": "emociones" },
+  { "ingles": "sad", "espanol": "triste", "categoria": "emociones" },
+  { "ingles": "angry", "espanol": "enojado", "categoria": "emociones" },
+  { "ingles": "tired", "espanol": "cansado", "categoria": "emociones" },
+  { "ingles": "hungry", "espanol": "hambriento", "categoria": "emociones" },
+  { "ingles": "thirsty", "espanol": "sediento", "categoria": "emociones" },
+  
+  { "ingles": "yes", "espanol": "sí", "categoria": "conversación" },
+  { "ingles": "no", "espanol": "no", "categoria": "conversación" },
+  { "ingles": "maybe", "espanol": "quizás", "categoria": "conversación" },
+  { "ingles": "I think", "espanol": "creo que", "categoria": "conversación" },
+  { "ingles": "I don't know", "espanol": "no lo sé", "categoria": "conversación" },
 
-      {"ingles": "run", "espanol": "correr","categoria": "verbos"
-      },
-      {
-        "ingles": "see",
-        "espanol": "ver",
-        "categoria": "verbos"
-      },
-      
+  { "ingles": "home", "espanol": "hogar", "categoria": "vida diaria" },
+  { "ingles": "work", "espanol": "trabajo", "categoria": "vida diaria" },
+  { "ingles": "school", "espanol": "escuela", "categoria": "vida diaria" },
+  { "ingles": "street", "espanol": "calle", "categoria": "vida diaria" },
+  { "ingles": "store", "espanol": "tienda", "categoria": "vida diaria" },
+  { "ingles": "hospital", "espanol": "hospital", "categoria": "vida diaria" },
+  { "ingles": "police", "espanol": "policía", "categoria": "vida diaria" },
+  { "ingles": "bathroom", "espanol": "baño", "categoria": "vida diaria" },
+  { "ingles": "bedroom", "espanol": "dormitorio", "categoria": "vida diaria" },
 
-      {
-        "ingles": "come",
-        "espanol": "venir",
-        "categoria": "verbos"
-      },
-      {
-        "ingles": "eat",
-        "espanol": "comer",
-        "categoria": "verbos"
-      },
-      {
-        "ingles": "drink",
-        "espanol": "beber",
-        "categoria": "verbos"
-      },
-      {
-        "ingles": "one",
-        "espanol": "uno",
-        "categoria": "números"
-      },
-      {"ingles": "two", "espanol": "dos", "categoria": "números"
-},
-      {"ingles": "three","espanol": "tres","categoria": "números"
-      },
-      {"ingles": "now", "espanol": "ahora","categoria": "adverbios"
-      },
-      {"ingles": "then", "espanol": "entonces","categoria": "adverbios"
-      },
-      {"ingles": "very", "espanol": "muy","categoria": "adverbios"
-      },
-      {"ingles": "quickly", "espanol": "rápidamente","categoria": "adverbios"
-      },
-      {"ingles": "slowly", "espanol": "lentamente","categoria": "adverbios"
-      },
-      {"ingles": "today", "espanol": "hoy","categoria": "tiempo"
-      },
-      {"ingles": "tomorrow", "espanol": "mañana (día siguiente)","categoria": "tiempo"
-      },
-      {"ingles": "yesterday", "espanol": "ayer","categoria": "tiempo"
-      },
-      {"ingles": "morning", "espanol": "mañana (parte del día)","categoria": "tiempo"
-      },
-      {"ingles": "afternoon", "espanol": "tarde","categoria": "tiempo"
-      },
-      {"ingles": "night", "espanol": "noche","categoria": "tiempo"
-      },
+  { "ingles": "okay", "espanol": "vale", "categoria": "conversación" },
+  { "ingles": "sure", "espanol": "claro", "categoria": "conversación" },
+  { "ingles": "of course", "espanol": "por supuesto", "categoria": "conversación" },
+  { "ingles": "maybe", "espanol": "quizás", "categoria": "conversación" },
+  { "ingles": "really?", "espanol": "¿en serio?", "categoria": "conversación" },
+  { "ingles": "I think", "espanol": "creo que", "categoria": "conversación" },
+  { "ingles": "I know", "espanol": "lo sé", "categoria": "conversación" },
+  { "ingles": "I don't know", "espanol": "no lo sé", "categoria": "conversación" },
+  { "ingles": "can you help me?", "espanol": "¿puedes ayudarme?", "categoria": "conversación" },
 
+  { "ingles": "coffee", "espanol": "café", "categoria": "comida" },
+  { "ingles": "tea", "espanol": "té", "categoria": "comida" },
+  { "ingles": "bread", "espanol": "pan", "categoria": "comida" },
+  { "ingles": "milk", "espanol": "leche", "categoria": "comida" },
+  { "ingles": "beer", "espanol": "cerveza", "categoria": "comida" },
+  { "ingles": "bill", "espanol": "cuenta", "categoria": "comida" },
+  { "ingles": "menu", "espanol": "menú", "categoria": "comida" },
+
+  { "ingles": "to buy", "espanol": "comprar", "categoria": "acciones" },
+  { "ingles": "to sell", "espanol": "vender", "categoria": "acciones" },
+  { "ingles": "to open", "espanol": "abrir", "categoria": "acciones" },
+  { "ingles": "to close", "espanol": "cerrar", "categoria": "acciones" },
+  { "ingles": "to wait", "espanol": "esperar", "categoria": "acciones" },
+  { "ingles": "to need", "espanol": "necesitar", "categoria": "acciones" },
+  { "ingles": "to want", "espanol": "querer", "categoria": "acciones" },
+  { "ingles": "to like", "espanol": "gustar", "categoria": "acciones" },
+  { "ingles": "to go back", "espanol": "volver", "categoria": "acciones" },
+
+  { "ingles": "always", "espanol": "siempre", "categoria": "tiempo" },
+  { "ingles": "usually", "espanol": "normalmente", "categoria": "tiempo" },
+  { "ingles": "sometimes", "espanol": "a veces", "categoria": "tiempo" },
+  { "ingles": "never", "espanol": "nunca", "categoria": "tiempo" },
+  { "ingles": "early", "espanol": "temprano", "categoria": "tiempo" },
+  { "ingles": "late", "espanol": "tarde", "categoria": "tiempo" },
+
+  { "ingles": "taxi", "espanol": "taxi", "categoria": "transporte" },
+  { "ingles": "airport", "espanol": "aeropuerto", "categoria": "transporte" },
+  { "ingles": "ticket", "espanol": "boleto", "categoria": "transporte" },
+  { "ingles": "station", "espanol": "estación", "categoria": "transporte" },
+  { "ingles": "bus stop", "espanol": "parada de bus", "categoria": "transporte" },
+  { "ingles": "traffic", "espanol": "tráfico", "categoria": "transporte" },
+  { "ingles": "map", "espanol": "mapa", "categoria": "transporte" },
+  {"ingles": "hello", "espanol": "hola", "categoria": "saludos"},
+  {"ingles": "goodbye", "espanol": "adiós", "categoria": "saludos"},
+  {"ingles": "yes", "espanol": "sí", "categoria": "respuestas"},
+  {"ingles": "no", "espanol": "no", "categoria": "respuestas"},
+  {"ingles": "please", "espanol": "por favor", "categoria": "cortesía"},
+  {"ingles": "thank you", "espanol": "gracias", "categoria": "cortesía"},
+  {"ingles": "sorry", "espanol": "lo siento", "categoria": "cortesía"},
+  {"ingles": "I", "espanol": "yo", "categoria": "pronombres"},
+  {"ingles": "you", "espanol": "tú/usted", "categoria": "pronombres"},
+  {"ingles": "we", "espanol": "nosotros", "categoria": "pronombres"},
+  {"ingles": "what", "espanol": "qué", "categoria": "preguntas"},
+  {"ingles": "where", "espanol": "dónde", "categoria": "preguntas"},
+  {"ingles": "how", "espanol": "cómo", "categoria": "preguntas"},
+  {"ingles": "time", "espanol": "tiempo/hora", "categoria": "sustantivos"},
+  {"ingles": "day", "espanol": "día", "categoria": "sustantivos"},
+  {"ingles": "water", "espanol": "agua", "categoria": "sustantivos"},
+  {"ingles": "food", "espanol": "comida", "categoria": "sustantivos"},
+  {"ingles": "house", "espanol": "casa", "categoria": "sustantivos"},
+  {"ingles": "good", "espanol": "bueno", "categoria": "adjetivos"},
+  {"ingles": "bad", "espanol": "malo", "categoria": "adjetivos"},
+  {"ingles": "big", "espanol": "grande", "categoria": "adjetivos"},
+  {"ingles": "small", "espanol": "pequeño", "categoria": "adjetivos"},
+  {"ingles": "go", "espanol": "ir", "categoria": "verbos"},
+  {"ingles": "run", "espanol": "correr", "categoria": "verbos"},
+  {"ingles": "see", "espanol": "ver", "categoria": "verbos"},
+  {"ingles": "come", "espanol": "venir", "categoria": "verbos"},
+  {"ingles": "eat", "espanol": "comer", "categoria": "verbos"},
+  {"ingles": "drink", "espanol": "beber", "categoria": "verbos"},
+  {"ingles": "one", "espanol": "uno", "categoria": "números"},
+  {"ingles": "two", "espanol": "dos", "categoria": "números"},
+  {"ingles": "three", "espanol": "tres", "categoria": "números"},
+  {"ingles": "now", "espanol": "ahora", "categoria": "adverbios"},
+  {"ingles": "then", "espanol": "entonces", "categoria": "adverbios"},
+  {"ingles": "very", "espanol": "muy", "categoria": "adverbios"},
+  {"ingles": "quickly", "espanol": "rápidamente", "categoria": "adverbios"},
+  {"ingles": "slowly", "espanol": "lentamente", "categoria": "adverbios"},
+  {"ingles": "today", "espanol": "hoy", "categoria": "tiempo"},
+  {"ingles": "tomorrow", "espanol": "mañana (día siguiente)", "categoria": "tiempo"},
+  {"ingles": "yesterday", "espanol": "ayer", "categoria": "tiempo"},
+  {"ingles": "morning", "espanol": "mañana (parte del día)", "categoria": "tiempo"},
+  {"ingles": "afternoon", "espanol": "tarde", "categoria": "tiempo"},
+  {"ingles": "night", "espanol": "noche", "categoria": "tiempo"},
 
       {"ingles": "computer", "espanol": "ordenador/computadora", "categoria": "hardware"},
       {"ingles": "keyboard", "espanol": "teclado", "categoria": "hardware"},
@@ -225,10 +254,7 @@
       {"ingles": "sprint", "espanol": "sprint", "categoria": "metodologías"},
       {"ingles": "UI", "espanol": "interfaz de usuario", "categoria": "diseño"},
       {"ingles": "UX", "espanol": "experiencia de usuario", "categoria": "diseño"},
-      {"ingles": "wireframe", "espanol": "wireframe", "categoria": "diseño"}
-    ],
-    
-    "dia_a_dia": [
+      {"ingles": "wireframe", "espanol": "wireframe", "categoria": "diseño"},
       {"ingles": "morning", "espanol": "mañana", "categoria": "tiempo"},
       {"ingles": "afternoon", "espanol": "tarde", "categoria": "tiempo"},
       {"ingles": "evening", "espanol": "noche (tarde-noche)", "categoria": "tiempo"},
@@ -272,10 +298,7 @@
       {"ingles": "to save", "espanol": "ahorrar", "categoria": "finanzas"},
       {"ingles": "to spend", "espanol": "gastar", "categoria": "finanzas"},
       {"ingles": "price", "espanol": "precio", "categoria": "finanzas"},
-      {"ingles": "shopping", "espanol": "compras", "categoria": "finanzas"}
-    ],
-    
-    "familia": [
+      {"ingles": "shopping", "espanol": "compras", "categoria": "finanzas"},
       {"ingles": "family", "espanol": "familia", "categoria": "general"},
       {"ingles": "mother", "espanol": "madre", "categoria": "parentesco"},
       {"ingles": "father", "espanol": "padre", "categoria": "parentesco"},
@@ -317,10 +340,7 @@
       {"ingles": "birthday", "espanol": "cumpleaños", "categoria": "eventos"},
       {"ingles": "wedding", "espanol": "boda", "categoria": "eventos"},
       {"ingles": "anniversary", "espanol": "aniversario", "categoria": "eventos"},
-      {"ingles": "family reunion", "espanol": "reunión familiar", "categoria": "eventos"}
-    ],
-    
-    "oficina_trabajo": [
+      {"ingles": "family reunion", "espanol": "reunión familiar", "categoria": "eventos"},
       {"ingles": "office", "espanol": "oficina", "categoria": "lugar"},
       {"ingles": "desk", "espanol": "escritorio", "categoria": "mobiliario"},
       {"ingles": "chair", "espanol": "silla", "categoria": "mobiliario"},
@@ -361,10 +381,7 @@
       {"ingles": "to resign", "espanol": "renunciar", "categoria": "RRHH"},
       {"ingles": "promotion", "espanol": "ascenso", "categoria": "carrera"},
       {"ingles": "raise", "espanol": "aumento de sueldo", "categoria": "carrera"},
-      {"ingles": "career", "espanol": "carrera profesional", "categoria": "carrera"}
-    ],
-    
-    "saludos_basico": [
+      {"ingles": "career", "espanol": "carrera profesional", "categoria": "carrera"},
       {"ingles": "hello", "espanol": "hola", "categoria": "saludos"},
       {"ingles": "goodbye", "espanol": "adiós", "categoria": "saludos"},
       {"ingles": "good morning", "espanol": "buenos días", "categoria": "saludos"},
@@ -384,10 +401,7 @@
       {"ingles": "sorry", "espanol": "lo siento", "categoria": "cortesía"},
       {"ingles": "yes", "espanol": "sí", "categoria": "afirmación"},
       {"ingles": "no", "espanol": "no", "categoria": "negación"},
-      {"ingles": "maybe", "espanol": "quizás", "categoria": "duda"}
-    ],
-
-    "palabrñas": [
+      {"ingles": "maybe", "espanol": "quizás", "categoria": "duda"},
       {"ingles": "data","espanol": "datos","categoria": "datos"},
       {"ingles": "dataset","espanol": "conjunto de datos","categoria": "datos"},
       {"ingles": "database","espanol": "base de datos","categoria": "datos"},
@@ -458,10 +472,7 @@
       {"ingles": "data quality","espanol": "calidad de datos","categoria": "gobernanza"},
       {"ingles": "data governance","espanol": "gobernanza de datos","categoria": "gobernanza"},
       {"ingles": "data privacy","espanol": "privacidad de datos","categoria": "gobernanza"},
-      {"ingles": "access control","espanol": "control de acceso","categoria": "gobernanza"}
-    ],
-   
-    "palabrass": [
+      {"ingles": "access control","espanol": "control de acceso","categoria": "gobernanza"},
       {"ingles": "id","espanol": "identificador","categoria": "columnas_generales"},
       {"ingles": "user id","espanol": "id de usuario","categoria": "columnas_generales"},
       {"ingles": "customer id","espanol": "id de cliente","categoria": "columnas_generales"},
@@ -516,10 +527,8 @@
       {"ingles": "prediction","espanol": "predicción","categoria": "columnas_ml"},
       {"ingles": "probability","espanol": "probabilidad","categoria": "columnas_ml"},
       {"ingles": "model version","espanol": "versión del modelo","categoria": "columnas_ml"},
-      {"ingles": "feature value","espanol": "valor de característica","categoria": "columnas_ml"}
-    ],
-  
-    "palabras": [
+      {"ingles": "feature value","espanol": "valor de característica","categoria": "columnas_ml"},
+    
       {"ingles": "session id","espanol": "id de sesión","categoria": "columnas_eventos"},
       {"ingles": "event id","espanol": "id de evento","categoria": "columnas_eventos"},
       {"ingles": "event name","espanol": "nombre del evento","categoria": "columnas_eventos"},
