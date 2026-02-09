@@ -14,6 +14,15 @@ def iterar_json_aleatorio(ruta):
     
     for palabra in palabras:
         yield palabra
+def iterar_ordenado_json(ruta):
+    """Itera elementos JSON en orden sin repetir"""
+    with open(ruta, 'r', encoding='utf-8') as f:
+        datos_ordenados = json.load(f)
+    
+    palabras = datos_ordenados['clasess']['palabra']
+    
+    for oraciones in palabras:
+        yield oraciones
 
 # FUNCION PARA WRITING
 def iterar_listenig(ruta):

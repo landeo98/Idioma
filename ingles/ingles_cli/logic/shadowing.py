@@ -47,7 +47,7 @@ def shadowing_parrafos(carpeta, pronunciar_palabra, velocidad=150):
         else:
             parrafo, trad = parrafo_completo, ""
 
-        print(parrafo)                        # Mostrar párrafo en inglés
+        #print(parrafo)                        # Mostrar párrafo en inglés
         pronunciar_palabra(parrafo, velocidad) # Pronunciar con TTS
         if trad:
             print(f"\033[32m   ↳ {trad}\033[0m")             # Mostrar traducción
