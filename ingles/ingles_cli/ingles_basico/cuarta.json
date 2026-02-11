@@ -424,7 +424,42 @@
     { "ingles": "I have stored the food", "espanol": "Yo he almacenado el alimento" },
     { "ingles": "I have talked with your son", "espanol": "Yo he conversado con su hijo" },
     { "ingles": "I have painted this house", "espanol": "Yo he pintado esta casa" },
-    { "ingles": "We have protested", "espanol": "Nosotros hemos protestado" }
+    { "ingles": "We have protested", "espanol": "Nosotros hemos protestado" },
+    { "ingles": "I take a rest", "espanol": "Yo tomo un descanso" },
+    { "ingles": "I am taking a rest", "espanol": "Yo estoy tomando un descanso" },
+    { "ingles": "I took a rest", "espanol": "Yo tomé un descanso" },
+    { "ingles": "I will take a rest", "espanol": "Yo tomaré un descanso" },
+    { "ingles": "I would take a rest", "espanol": "Yo tomaría un descanso" },
+    { "ingles": "I may take a rest", "espanol": "Yo puedo tomar un descanso" },
+    { "ingles": "I might take a rest", "espanol": "Yo podría tomar un descanso" },
+    { "ingles": "I was taking a rest", "espanol": "Yo estaba tomando un descanso" },
+    { "ingles": "I will be taking a rest", "espanol": "Yo estaré tomando un descanso" },
+    { "ingles": "I send a letter to my mother", "espanol": "Yo envío una carta a mi madre" },
+    { "ingles": "I am sending a letter to my mother", "espanol": "Yo estoy enviando una carta a mi madre" },
+    { "ingles": "I sent a letter to my mother", "espanol": "Yo envié una carta a mi madre" },
+    { "ingles": "He will send a letter", "espanol": "Él enviará una carta" },
+    { "ingles": "She may send a letter", "espanol": "Ella puede enviar una carta" },
+    { "ingles": "We might send a letter", "espanol": "Nosotros podríamos enviar una carta" },
+    { "ingles": "You might send a letter", "espanol": "Usted podría enviar una carta" },
+    { "ingles": "He says that", "espanol": "Él dice eso" },
+    { "ingles": "He said that", "espanol": "Él dijo eso" },
+    { "ingles": "I am getting the money", "espanol": "Yo estoy consiguiendo dinero" },
+    { "ingles": "I got the money", "espanol": "Yo conseguí el dinero" },
+    { "ingles": "He will get the money", "espanol": "Él conseguirá el dinero" },
+    { "ingles": "She may get the money", "espanol": "Ella puede conseguir el dinero" },
+    { "ingles": "She might get the money", "espanol": "Ella podría conseguir el dinero" },
+    { "ingles": "My son might get the money", "espanol": "Mi hijo podría conseguir el dinero" },
+    { "ingles": "Your father would get the money", "espanol": "Su padre conseguiría el dinero" },
+    { "ingles": "I am doing my work", "espanol": "Yo estoy haciendo mi trabajo" },
+    { "ingles": "He does his work", "espanol": "Él hace su trabajo" },
+    { "ingles": "He did his work", "espanol": "Él hizo su trabajo" },
+    { "ingles": "We will do that work", "espanol": "Nosotros haremos ese trabajo" },
+    { "ingles": "They may do that work", "espanol": "Ellos pueden hacer ese trabajo" },
+    { "ingles": "She might do that work", "espanol": "Ella podría hacer ese trabajo" },
+    { "ingles": "We were doing that work", "espanol": "Nosotros estábamos haciendo ese trabajo" },
+    { "ingles": "I would do that work", "espanol": "Yo haría ese trabajo" }
   ]
 }
+
 }
+
